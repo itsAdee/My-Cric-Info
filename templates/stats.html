@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stats</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/stats_style.css')}}"  />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/> -->
+  </head>
+  <body>
+    {%include 'nav.html' %}
+    <script id="replace_with_navbar" src="nav.js"></script>
+    <table class="styled-table">
+      <thead>
+        <tr>
+          <th>Test matches</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+          <a  class="statRecHdr" href="/ci/engine/records/index.html?class=1"> Batting Records</a></td>
+          </tr>
+        <tr>
+          <td>
+          <a  class="statRecHdr" href=""> Bowling Records</a></td>
+          </tr>
+        <tr>
+          <td>
+          <a  class="" href=""> Wicketkeeping Records</a></td>
+          </tr>
+        <tr>
+          <td>
+          <a  class="" href=""> Fielding Records</a></td>
+          </tr>
+        <tr>
+          <td>
+          <a  class="" href=""> All-round Records</a></td>
+          </tr>
+        <tr>
+          <td>
+          <a  class="" href=""> Partnership Records</a></td>
+          </tr>
+        <tr>
+          <td>
+          <a  class="" href=""> Individual Records</a></td>
+          </tr>
+      </tbody>
+    </table>
+
+
+
+    <div style="position: relative;
+    left:320px;
+    bottom: 340px;
+    width: 100px;
+    height: 100px;">
+      
+      <table class="styled-table">
+        <thead>
+          <tr>
+            <th>ODI matches</th>
+            <tr>
+              </thead>
+              <tbody>
+                <tr>
+            <td>
+            <a  class="statRecHdr" href=""> Batting Records</a></td>
+            
+            </tr>
+            <tr>
+            <td>
+            <a  class="" href=""> Bowling Records</a></td>
+            </tr>
+            <tr>
+            <td>
+            <a  class="" href=""> Wicketkeeping Records</a></td>
+            </tr>
+            <tr>
+            <td>
+            <a  class="" href=""> Fielding Records</a></td>
+            </tr>
+            <tr>
+            <td>
+            <a  class="" href=""> All-round Records</a></td>
+            </tr>
+            <tr>
+            <td>
+            <a  class="" href=""> Partnership Records</a></td>
+            </tr>
+            <tr>
+            <td>
+            <a  class="" href=""> Individual Records</a></td>
+            </tr>
+          </tr>
+        
+        </table>
+        
+    
+  
+    </div>
+   <div style="position: relative;
+   left:650px;
+    bottom: 465px;
+    width: 100px;
+    height: 100px;">
+    <table class="styled-table">
+      <thead>
+        <tr>
+          <th>
+            Record by Teams
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+
+      <tr>
+        <td><div class="standings-nav" style="text-align:left;"><a class="active" id="recteam_link" href="javascript:void(0);" onclick="changeLead('recteam','recteam_link'); return false;" title="Team">Team</a> | <a id="reccntry_link" class="none" href="javascript:void(0);" onclick="changeLead('reccntry','reccntry_link'); return false;" title="Host Country">Host Country</a></div></td>
+      </tr>
+      <tr>
+      <td>
+        <a href="">Afghanistan</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="">Australia</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="">Bangladesh</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="">England</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="">India</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="">Ireland</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="">New Zealand</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="">Pakistan</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="">South Africa</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="">Sri Lanka</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="">West Indies</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="">Zimbabwe</a>
+      </td>
+    </tr>
+    </tbody>
+    
+
+
+      
+      
+    </table>
+   </div>
+        
+    <div  style="border-top:0px;border-bottom:0px;width:239px;margin-bottom:0px;">
+      <p class="statRecHdrG">Records by team</p>
+      <div class="standingsGutter">
+        <div class="standings-nav" style="text-align:left;"><a class="active" id="recteam_link" href="javascript:void(0);" onclick="changeLead('recteam','recteam_link'); return false;" title="Team">Team</a> | <a id="reccntry_link" class="none" href="javascript:void(0);" onclick="changeLead('reccntry','reccntry_link'); return false;" title="Host Country">Host Country</a></div>
+      </div>
+
+
+      <div id="recteam" style="display: block;">
+
+        <ul class="Record" style="width: 220px;">
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=40;type=team"> Afghanistan</a></li>
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=2;type=team"> Australia</a></li>
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=25;type=team"> Bangladesh</a></li>
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=1;type=team"> England</a></li>
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=140;type=team"> ICC World XI</a></li>
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=6;type=team"> India</a></li>
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=29;type=team"> Ireland</a></li>
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=5;type=team"> New Zealand</a></li>
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=7;type=team"> Pakistan</a></li>
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=3;type=team"> South Africa</a></li>
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=8;type=team"> Sri Lanka</a></li>
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=4;type=team"> West Indies</a></li>
+
+<li class="padbttm">
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=9;type=team"> Zimbabwe</a></li>
+
+         </ul>
+
+        <ul class="Record" style="width: 220px;">
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=4058;type=team"> Africa XI</a></li>
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=106;type=team"> Asia XI</a></li>
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=12;type=team"> Bermuda</a></li>
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=17;type=team"> Canada</a></li>
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=14;type=team"> East Africa</a></li>
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=19;type=team"> Hong Kong</a></li>
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=26;type=team"> Kenya</a></li>
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=28;type=team"> Namibia</a></li>
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=32;type=team"> Nepal</a></li>
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=15;type=team"> Netherlands</a></li>
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=37;type=team"> Oman</a></li>
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=20;type=team"> Papua New Guinea</a></li>
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=30;type=team"> Scotland</a></li>
+
+<li>
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=27;type=team"> United Arab Emirates</a></li>
+
+<li class="padbttm">
+
+          <a class="RecordLinks" href="/ci/engine/records/index.html?id=11;type=team"> United States of America</a></li>
+
+         </ul>
+
+      </div>
+
+      <div id="reccntry" style="display: none;">
+        <ul class="Record" style="width: 220px;">
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=2;type=host">Australia</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=41;type=host">Austria</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=25;type=host">Bangladesh</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=42;type=host">Belgium</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=12;type=host">Bermuda</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=114;type=host">Bulgaria</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=17;type=host">Canada</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=39;type=host">Cayman Islands</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=125;type=host">Cyprus</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=126;type=host">Czech Republic</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=13;type=host">Denmark</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=1;type=host">England</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=4253;type=host">Eswatini</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=131;type=host">Finland</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=35;type=host">Germany</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=137;type=host">Greece</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=1094;type=host">Guernsey</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=19;type=host">Hong Kong</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=6;type=host">India</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=29;type=host">Ireland</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=36;type=host">Japan</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=26;type=host">Kenya</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=161;type=host">Luxembourg</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=169;type=host">Malawi</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=16;type=host">Malaysia</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=45;type=host">Malta</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=165;type=host">Mexico</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=46;type=host">Morocco</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=28;type=host">Namibia</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=32;type=host">Nepal</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=15;type=host">Netherlands</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=5;type=host">New Zealand</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=173;type=host">Nigeria</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=37;type=host">Oman</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=7;type=host">Pakistan</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=20;type=host">Papua New Guinea</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=178;type=host">Peru</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=185;type=host">Portugal</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=187;type=host">Qatar</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=188;type=host">Romania</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=191;type=host">Rwanda</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=192;type=host">Samoa</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=30;type=host">Scotland</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=5615;type=host">Serbia</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=23;type=host">Singapore</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=3;type=host">South Africa</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=200;type=host">Spain</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=8;type=host">Sri Lanka</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=211;type=host">Tanzania</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=207;type=host">Thailand</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=34;type=host">Uganda</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=27;type=host">United Arab Emirates</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=11;type=host">United States of America</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=216;type=host">Vanuatu</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=4;type=host">West Indies</a></li>
+
+
+        <li> <a class="RecordLinks" href="/ci/engine/records/index.html?id=9;type=host">Zimbabwe</a></li>
+
+       </ul>
+      </div>
+
+    </div>  
+         
+  
+
+          
+      <table class="styled-table">
+        <thead>
+          <tr>
+            <th>Player</th>
+            <th>Runs</th>
+          </tr>
+        </thead>
+        <tbody>
+
+        <tr class="active-row">
+          <td>Melissa</td>
+          <td>5150</td>
+        </tr>
+        <!-- and so on... -->
+      </tbody>
+    </table>
+
+
+
+  
+  </body>
+</html>
