@@ -23,7 +23,6 @@ def Scrapper(player_name, x):
 
 
 def Player_Stats(x):
-    print(x)
     current_player = Player(x)
     full_name = current_player.name
     first_name = full_name.split(' ')[0]

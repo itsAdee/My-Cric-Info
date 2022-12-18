@@ -1,8 +1,3 @@
-MatchID,SeriesID,MatchDate,EventName,EventStage,FieldUmpires_1,FieldUmpires_2,TVUmpire,winner_team,ResultDescription,PlayerOfMatch,Season,TeamType,Team1,Team2
-1327281,3150302,2022-09-11,Asia Cup,Final,AK Chaudhary,Masudur Rahman,Bismillah Shinwari,Sri Lanka,Sri Lanka won by  23 runs,PBB Rajapaksa,2022,international,Sri Lanka,Pakistan
-1327233,4366362,2022-09-30,England tour of Pakistan,,Aleem Dar,Rashid Riaz,Faisal Afridi,England,England won by  8 wickets,PD Salt,2022,international,Pakistan,England
-1335805,3181427,2022-10-11,Women's Asia Cup,,H Yerzal,Shivani Mishra,VG Rathi,Pakistan,Pakistan won by  5 wickets,Umaima Sohail,2022/23,international,Sri Lanka,Pakistan
-1327280,3150302,2022-09-09,Asia Cup,,Ahmed Shah Pakteen,AK Chaudhary,Masudur Rahman,Sri Lanka,Sri Lanka won by  5 wickets,PWH de Silva,2022,international,Pakistan,Sri Lanka
-710291,9933834,2014-02-25,Asia Cup,,JD Cloete,BNJ Oxenford,Anisur Rahman,Sri Lanka,Sri Lanka won by  12 runs,SL Malinga,2013/14,international,Pakistan,Sri Lanka
-685735,4291287,2013-11-30,Pakistan in South Africa ODI Series,,CB Gaffaney,S George,BNJ Oxenford,South Africa,South Africa won by  4 wickets,VD Philander,2013/14,international,South Africa,Pakistan
-1000891,4448160,2017-01-19,Pakistan in Australia ODI Series,,SD Fry,C Shamshuddin,CB Gaffaney,Australia,Australia won by  7 wickets,SPD Smith,2016/17,international,Australia,Pakistan
+MatchID,SeriesID,MatchType,MatchDate,EventName,EventStage,FieldUmpires_1,FieldUmpires_2,TVUmpire,winner_team,ResultDescription,PlayerOfMatch,Season,TeamType,Team1,Team2
+1327281,3150302,T20,2022-09-11,Asia Cup,Final,AK Chaudhary,Masudur Rahman,Bismillah Shinwari,Sri Lanka,Sri Lanka won by  23 runs,342619,2022,international,Sri Lanka,Pakistan
+1298150,4784326,T20,2022-10-23,ICC Men's T20 World Cup,,M Erasmus,RJ Tucker,RA Kettleborough,India,India won by  4 wickets,253802,2022/23,international,Pakistan,India
