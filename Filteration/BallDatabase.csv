@@ -1,0 +1,479 @@
+MatchId,Inning,Overs,BallNumber,Extra,HallalRuns,Bowler,Batter
+1,1,1,1,0,0,X,X
+1327281,0,0,1,1,0,Naseem Shah,P Nissanka
+1327281,0,0,2,0,0,Naseem Shah,P Nissanka
+1327281,0,0,3,0,1,Naseem Shah,P Nissanka
+1327281,0,0,4,0,0,Naseem Shah,BKG Mendis
+1327281,0,0,5,0,0,Naseem Shah,DM de Silva
+1327281,0,0,6,0,0,Naseem Shah,DM de Silva
+1327281,0,0,7,0,2,Naseem Shah,DM de Silva
+1327281,0,1,1,0,0,Mohammad Hasnain,P Nissanka
+1327281,0,1,2,0,1,Mohammad Hasnain,P Nissanka
+1327281,0,1,3,0,4,Mohammad Hasnain,DM de Silva
+1327281,0,1,4,0,0,Mohammad Hasnain,DM de Silva
+1327281,0,1,5,1,0,Mohammad Hasnain,DM de Silva
+1327281,0,1,6,0,4,Mohammad Hasnain,DM de Silva
+1327281,0,1,7,0,2,Mohammad Hasnain,DM de Silva
+1327281,0,2,1,0,0,Naseem Shah,P Nissanka
+1327281,0,2,2,0,0,Naseem Shah,P Nissanka
+1327281,0,2,3,0,4,Naseem Shah,P Nissanka
+1327281,0,2,4,0,1,Naseem Shah,P Nissanka
+1327281,0,2,5,0,1,Naseem Shah,DM de Silva
+1327281,0,2,6,0,1,Naseem Shah,P Nissanka
+1327281,0,3,1,0,0,Haris Rauf,P Nissanka
+1327281,0,3,2,0,0,Haris Rauf,P Nissanka
+1327281,0,3,3,0,0,Haris Rauf,DM de Silva
+1327281,0,3,4,0,0,Haris Rauf,DM de Silva
+1327281,0,3,5,0,4,Haris Rauf,DM de Silva
+1327281,0,3,6,0,1,Haris Rauf,DM de Silva
+1327281,0,4,1,0,1,Mohammad Hasnain,DM de Silva
+1327281,0,4,2,1,0,Mohammad Hasnain,MD Gunathilaka
+1327281,0,4,3,0,4,Mohammad Hasnain,DM de Silva
+1327281,0,4,4,0,1,Mohammad Hasnain,DM de Silva
+1327281,0,4,5,0,0,Mohammad Hasnain,MD Gunathilaka
+1327281,0,4,6,0,1,Mohammad Hasnain,MD Gunathilaka
+1327281,0,5,1,0,0,Haris Rauf,MD Gunathilaka
+1327281,0,5,2,0,4,Haris Rauf,PBB Rajapaksa
+1327281,0,5,3,0,0,Haris Rauf,PBB Rajapaksa
+1327281,0,5,4,0,0,Haris Rauf,PBB Rajapaksa
+1327281,0,5,5,0,0,Haris Rauf,PBB Rajapaksa
+1327281,0,5,6,0,2,Haris Rauf,PBB Rajapaksa
+1327281,0,6,1,0,1,Shadab Khan,DM de Silva
+1327281,0,6,2,0,1,Shadab Khan,PBB Rajapaksa
+1327281,0,6,3,0,1,Shadab Khan,DM de Silva
+1327281,0,6,4,0,1,Shadab Khan,PBB Rajapaksa
+1327281,0,6,5,0,0,Shadab Khan,DM de Silva
+1327281,0,6,6,0,1,Shadab Khan,DM de Silva
+1327281,0,7,1,0,1,Iftikhar Ahmed,DM de Silva
+1327281,0,7,2,0,4,Iftikhar Ahmed,PBB Rajapaksa
+1327281,0,7,3,0,1,Iftikhar Ahmed,PBB Rajapaksa
+1327281,0,7,4,0,0,Iftikhar Ahmed,DM de Silva
+1327281,0,7,5,0,1,Iftikhar Ahmed,MD Shanaka
+1327281,0,7,6,0,1,Iftikhar Ahmed,PBB Rajapaksa
+1327281,0,8,1,0,1,Shadab Khan,PBB Rajapaksa
+1327281,0,8,2,0,1,Shadab Khan,MD Shanaka
+1327281,0,8,3,0,0,Shadab Khan,PBB Rajapaksa
+1327281,0,8,4,0,1,Shadab Khan,PBB Rajapaksa
+1327281,0,8,5,0,0,Shadab Khan,MD Shanaka
+1327281,0,8,6,0,4,Shadab Khan,PWH de Silva
+1327281,0,9,1,0,1,Iftikhar Ahmed,PBB Rajapaksa
+1327281,0,9,2,0,1,Iftikhar Ahmed,PWH de Silva
+1327281,0,9,3,0,2,Iftikhar Ahmed,PBB Rajapaksa
+1327281,0,9,4,0,0,Iftikhar Ahmed,PBB Rajapaksa
+1327281,0,9,5,0,1,Iftikhar Ahmed,PBB Rajapaksa
+1327281,0,9,6,0,0,Iftikhar Ahmed,PWH de Silva
+1327281,0,10,1,0,0,Shadab Khan,PBB Rajapaksa
+1327281,0,10,2,0,4,Shadab Khan,PBB Rajapaksa
+1327281,0,10,3,0,1,Shadab Khan,PBB Rajapaksa
+1327281,0,10,4,0,4,Shadab Khan,PWH de Silva
+1327281,0,10,5,0,1,Shadab Khan,PWH de Silva
+1327281,0,10,6,0,0,Shadab Khan,PBB Rajapaksa
+1327281,0,11,1,0,1,Iftikhar Ahmed,PWH de Silva
+1327281,0,11,2,0,0,Iftikhar Ahmed,PBB Rajapaksa
+1327281,0,11,3,0,1,Iftikhar Ahmed,PBB Rajapaksa
+1327281,0,11,4,0,1,Iftikhar Ahmed,PWH de Silva
+1327281,0,11,5,0,4,Iftikhar Ahmed,PBB Rajapaksa
+1327281,0,11,6,0,1,Iftikhar Ahmed,PBB Rajapaksa
+1327281,0,12,1,0,1,Mohammad Hasnain,PBB Rajapaksa
+1327281,0,12,2,0,0,Mohammad Hasnain,PWH de Silva
+1327281,0,12,3,0,4,Mohammad Hasnain,PWH de Silva
+1327281,0,12,4,0,2,Mohammad Hasnain,PWH de Silva
+1327281,0,12,5,0,6,Mohammad Hasnain,PWH de Silva
+1327281,0,12,6,0,1,Mohammad Hasnain,PWH de Silva
+1327281,0,13,1,0,1,Shadab Khan,PWH de Silva
+1327281,0,13,2,0,4,Shadab Khan,PBB Rajapaksa
+1327281,0,13,3,0,1,Shadab Khan,PBB Rajapaksa
+1327281,0,13,4,0,0,Shadab Khan,PWH de Silva
+1327281,0,13,5,0,0,Shadab Khan,PWH de Silva
+1327281,0,13,6,1,0,Shadab Khan,PWH de Silva
+1327281,0,14,1,0,0,Haris Rauf,PWH de Silva
+1327281,0,14,2,0,2,Haris Rauf,PWH de Silva
+1327281,0,14,3,0,4,Haris Rauf,PWH de Silva
+1327281,0,14,4,0,4,Haris Rauf,PWH de Silva
+1327281,0,14,5,0,0,Haris Rauf,PWH de Silva
+1327281,0,14,6,0,1,Haris Rauf,C Karunaratne
+1327281,0,15,1,0,0,Mohammad Nawaz,C Karunaratne
+1327281,0,15,2,0,0,Mohammad Nawaz,C Karunaratne
+1327281,0,15,3,0,1,Mohammad Nawaz,C Karunaratne
+1327281,0,15,4,0,1,Mohammad Nawaz,PBB Rajapaksa
+1327281,0,15,5,0,0,Mohammad Nawaz,C Karunaratne
+1327281,0,15,6,0,1,Mohammad Nawaz,C Karunaratne
+1327281,0,16,1,1,0,Naseem Shah,C Karunaratne
+1327281,0,16,2,1,0,Naseem Shah,PBB Rajapaksa
+1327281,0,16,3,0,1,Naseem Shah,C Karunaratne
+1327281,0,16,4,0,6,Naseem Shah,PBB Rajapaksa
+1327281,0,16,5,0,1,Naseem Shah,PBB Rajapaksa
+1327281,0,16,6,0,6,Naseem Shah,C Karunaratne
+1327281,0,17,1,0,1,Haris Rauf,PBB Rajapaksa
+1327281,0,17,2,4,0,Haris Rauf,C Karunaratne
+1327281,0,17,3,0,1,Haris Rauf,C Karunaratne
+1327281,0,17,4,0,3,Haris Rauf,PBB Rajapaksa
+1327281,0,17,5,0,1,Haris Rauf,C Karunaratne
+1327281,0,17,6,0,1,Haris Rauf,PBB Rajapaksa
+1327281,0,18,1,0,1,Mohammad Hasnain,PBB Rajapaksa
+1327281,0,18,2,0,1,Mohammad Hasnain,C Karunaratne
+1327281,0,18,3,0,0,Mohammad Hasnain,PBB Rajapaksa
+1327281,0,18,4,0,0,Mohammad Hasnain,PBB Rajapaksa
+1327281,0,18,5,0,0,Mohammad Hasnain,PBB Rajapaksa
+1327281,0,18,6,0,6,Mohammad Hasnain,PBB Rajapaksa
+1327281,0,19,1,0,1,Naseem Shah,C Karunaratne
+1327281,0,19,2,0,2,Naseem Shah,PBB Rajapaksa
+1327281,0,19,3,0,2,Naseem Shah,PBB Rajapaksa
+1327281,0,19,4,0,0,Naseem Shah,PBB Rajapaksa
+1327281,0,19,5,0,4,Naseem Shah,PBB Rajapaksa
+1327281,0,19,6,0,6,Naseem Shah,PBB Rajapaksa
+1327281,1,0,1,1,0,D Madushanka,Mohammad Rizwan
+1327281,1,0,2,1,0,D Madushanka,Mohammad Rizwan
+1327281,1,0,3,1,0,D Madushanka,Mohammad Rizwan
+1327281,1,0,4,5,0,D Madushanka,Mohammad Rizwan
+1327281,1,0,5,1,0,D Madushanka,Mohammad Rizwan
+1327281,1,0,6,0,1,D Madushanka,Mohammad Rizwan
+1327281,1,0,7,0,0,D Madushanka,Babar Azam
+1327281,1,0,8,0,0,D Madushanka,Babar Azam
+1327281,1,0,9,0,1,D Madushanka,Babar Azam
+1327281,1,0,10,0,0,D Madushanka,Mohammad Rizwan
+1327281,1,0,11,0,1,D Madushanka,Mohammad Rizwan
+1327281,1,1,1,0,0,M Theekshana,Mohammad Rizwan
+1327281,1,1,2,1,0,M Theekshana,Mohammad Rizwan
+1327281,1,1,3,0,0,M Theekshana,Mohammad Rizwan
+1327281,1,1,4,0,0,M Theekshana,Mohammad Rizwan
+1327281,1,1,5,0,0,M Theekshana,Mohammad Rizwan
+1327281,1,1,6,0,1,M Theekshana,Mohammad Rizwan
+1327281,1,1,7,0,2,M Theekshana,Babar Azam
+1327281,1,2,1,0,0,D Madushanka,Mohammad Rizwan
+1327281,1,2,2,0,4,D Madushanka,Mohammad Rizwan
+1327281,1,2,3,0,0,D Madushanka,Mohammad Rizwan
+1327281,1,2,4,0,0,D Madushanka,Mohammad Rizwan
+1327281,1,2,5,0,0,D Madushanka,Mohammad Rizwan
+1327281,1,2,6,0,0,D Madushanka,Mohammad Rizwan
+1327281,1,3,1,0,2,PM Liyanagamage,Babar Azam
+1327281,1,3,2,0,0,PM Liyanagamage,Babar Azam
+1327281,1,3,3,0,0,PM Liyanagamage,Fakhar Zaman
+1327281,1,3,4,0,1,PM Liyanagamage,Iftikhar Ahmed
+1327281,1,3,5,0,0,PM Liyanagamage,Mohammad Rizwan
+1327281,1,3,6,0,1,PM Liyanagamage,Mohammad Rizwan
+1327281,1,4,1,0,2,D Madushanka,Mohammad Rizwan
+1327281,1,4,2,0,1,D Madushanka,Mohammad Rizwan
+1327281,1,4,3,0,0,D Madushanka,Iftikhar Ahmed
+1327281,1,4,4,0,1,D Madushanka,Iftikhar Ahmed
+1327281,1,4,5,0,0,D Madushanka,Mohammad Rizwan
+1327281,1,4,6,0,4,D Madushanka,Mohammad Rizwan
+1327281,1,5,1,0,0,PM Liyanagamage,Iftikhar Ahmed
+1327281,1,5,2,0,2,PM Liyanagamage,Iftikhar Ahmed
+1327281,1,5,3,0,0,PM Liyanagamage,Iftikhar Ahmed
+1327281,1,5,4,0,1,PM Liyanagamage,Iftikhar Ahmed
+1327281,1,5,5,0,1,PM Liyanagamage,Mohammad Rizwan
+1327281,1,5,6,0,1,PM Liyanagamage,Iftikhar Ahmed
+1327281,1,6,1,0,0,PWH de Silva,Iftikhar Ahmed
+1327281,1,6,2,0,4,PWH de Silva,Iftikhar Ahmed
+1327281,1,6,3,0,0,PWH de Silva,Iftikhar Ahmed
+1327281,1,6,4,0,1,PWH de Silva,Iftikhar Ahmed
+1327281,1,6,5,0,1,PWH de Silva,Mohammad Rizwan
+1327281,1,6,6,0,0,PWH de Silva,Iftikhar Ahmed
+1327281,1,7,1,0,4,C Karunaratne,Mohammad Rizwan
+1327281,1,7,2,0,2,C Karunaratne,Mohammad Rizwan
+1327281,1,7,3,0,1,C Karunaratne,Mohammad Rizwan
+1327281,1,7,4,0,1,C Karunaratne,Iftikhar Ahmed
+1327281,1,7,5,0,1,C Karunaratne,Mohammad Rizwan
+1327281,1,7,6,0,1,C Karunaratne,Iftikhar Ahmed
+1327281,1,8,1,0,1,M Theekshana,Iftikhar Ahmed
+1327281,1,8,2,0,4,M Theekshana,Mohammad Rizwan
+1327281,1,8,3,0,1,M Theekshana,Mohammad Rizwan
+1327281,1,8,4,0,1,M Theekshana,Iftikhar Ahmed
+1327281,1,8,5,0,2,M Theekshana,Mohammad Rizwan
+1327281,1,8,6,0,1,M Theekshana,Mohammad Rizwan
+1327281,1,9,1,0,1,PWH de Silva,Mohammad Rizwan
+1327281,1,9,2,0,1,PWH de Silva,Iftikhar Ahmed
+1327281,1,9,3,0,1,PWH de Silva,Mohammad Rizwan
+1327281,1,9,4,0,1,PWH de Silva,Iftikhar Ahmed
+1327281,1,9,5,0,1,PWH de Silva,Mohammad Rizwan
+1327281,1,9,6,0,0,PWH de Silva,Iftikhar Ahmed
+1327281,1,10,1,0,0,C Karunaratne,Mohammad Rizwan
+1327281,1,10,2,0,1,C Karunaratne,Mohammad Rizwan
+1327281,1,10,3,0,1,C Karunaratne,Iftikhar Ahmed
+1327281,1,10,4,0,1,C Karunaratne,Mohammad Rizwan
+1327281,1,10,5,0,1,C Karunaratne,Iftikhar Ahmed
+1327281,1,10,6,0,2,C Karunaratne,Mohammad Rizwan
+1327281,1,11,1,0,0,PWH de Silva,Iftikhar Ahmed
+1327281,1,11,2,0,6,PWH de Silva,Iftikhar Ahmed
+1327281,1,11,3,0,4,PWH de Silva,Iftikhar Ahmed
+1327281,1,11,4,0,2,PWH de Silva,Iftikhar Ahmed
+1327281,1,11,5,0,1,PWH de Silva,Iftikhar Ahmed
+1327281,1,11,6,0,1,PWH de Silva,Mohammad Rizwan
+1327281,1,12,1,0,2,M Theekshana,Mohammad Rizwan
+1327281,1,12,2,0,0,M Theekshana,Mohammad Rizwan
+1327281,1,12,3,0,1,M Theekshana,Mohammad Rizwan
+1327281,1,12,4,0,0,M Theekshana,Iftikhar Ahmed
+1327281,1,12,5,0,0,M Theekshana,Iftikhar Ahmed
+1327281,1,12,6,0,0,M Theekshana,Iftikhar Ahmed
+1327281,1,13,1,0,1,PM Liyanagamage,Mohammad Rizwan
+1327281,1,13,2,1,0,PM Liyanagamage,Iftikhar Ahmed
+1327281,1,13,3,0,0,PM Liyanagamage,Iftikhar Ahmed
+1327281,1,13,4,0,1,PM Liyanagamage,Mohammad Rizwan
+1327281,1,13,5,0,1,PM Liyanagamage,Mohammad Nawaz
+1327281,1,13,6,0,1,PM Liyanagamage,Mohammad Rizwan
+1327281,1,13,7,0,1,PM Liyanagamage,Mohammad Nawaz
+1327281,1,14,1,0,2,DM de Silva,Mohammad Nawaz
+1327281,1,14,2,0,2,DM de Silva,Mohammad Nawaz
+1327281,1,14,3,0,0,DM de Silva,Mohammad Nawaz
+1327281,1,14,4,0,0,DM de Silva,Mohammad Nawaz
+1327281,1,14,5,0,0,DM de Silva,Mohammad Nawaz
+1327281,1,14,6,0,0,DM de Silva,Mohammad Nawaz
+1327281,1,15,1,0,1,C Karunaratne,Mohammad Rizwan
+1327281,1,15,2,0,0,C Karunaratne,Mohammad Nawaz
+1327281,1,15,3,0,0,C Karunaratne,Khushdil Shah
+1327281,1,15,4,0,1,C Karunaratne,Khushdil Shah
+1327281,1,15,5,0,6,C Karunaratne,Mohammad Rizwan
+1327281,1,15,6,0,1,C Karunaratne,Mohammad Rizwan
+1327281,1,16,1,0,0,PWH de Silva,Mohammad Rizwan
+1327281,1,16,2,0,1,PWH de Silva,Khushdil Shah
+1327281,1,16,3,0,0,PWH de Silva,Asif Ali
+1327281,1,16,4,0,1,PWH de Silva,Shadab Khan
+1327281,1,16,5,0,0,PWH de Silva,Khushdil Shah
+1327281,1,16,6,0,0,PWH de Silva,Haris Rauf
+1327281,1,17,1,0,4,M Theekshana,Shadab Khan
+1327281,1,17,2,0,0,M Theekshana,Shadab Khan
+1327281,1,17,3,0,1,M Theekshana,Shadab Khan
+1327281,1,17,4,0,1,M Theekshana,Haris Rauf
+1327281,1,17,5,0,2,M Theekshana,Shadab Khan
+1327281,1,17,6,0,0,M Theekshana,Shadab Khan
+1327281,1,18,1,1,0,PM Liyanagamage,Naseem Shah
+1327281,1,18,2,0,4,PM Liyanagamage,Naseem Shah
+1327281,1,18,3,0,0,PM Liyanagamage,Naseem Shah
+1327281,1,18,4,0,0,PM Liyanagamage,Mohammad Hasnain
+1327281,1,18,5,0,1,PM Liyanagamage,Mohammad Hasnain
+1327281,1,18,6,1,4,PM Liyanagamage,Haris Rauf
+1327281,1,18,7,1,0,PM Liyanagamage,Haris Rauf
+1327281,1,18,8,0,1,PM Liyanagamage,Haris Rauf
+1327281,1,18,9,0,6,PM Liyanagamage,Mohammad Hasnain
+1327281,1,19,1,0,0,C Karunaratne,Haris Rauf
+1327281,1,19,2,0,1,C Karunaratne,Haris Rauf
+1327281,1,19,3,0,1,C Karunaratne,Mohammad Hasnain
+1327281,1,19,4,0,0,C Karunaratne,Haris Rauf
+1327281,1,19,5,0,6,C Karunaratne,Haris Rauf
+1327281,1,19,6,0,0,C Karunaratne,Haris Rauf
+1327280,0,0,1,0,0,D Madushanka,Mohammad Rizwan
+1327280,0,0,2,0,1,D Madushanka,Mohammad Rizwan
+1327280,0,0,3,0,2,D Madushanka,Mohammad Rizwan
+1327280,0,0,4,0,1,D Madushanka,Mohammad Rizwan
+1327280,0,0,5,2,0,D Madushanka,Babar Azam
+1327280,0,0,6,0,1,D Madushanka,Mohammad Rizwan
+1327280,0,0,7,0,4,D Madushanka,Babar Azam
+1327280,0,1,1,0,1,M Theekshana,Mohammad Rizwan
+1327280,0,1,2,0,1,M Theekshana,Babar Azam
+1327280,0,1,3,0,0,M Theekshana,Mohammad Rizwan
+1327280,0,1,4,1,0,M Theekshana,Mohammad Rizwan
+1327280,0,1,5,0,2,M Theekshana,Mohammad Rizwan
+1327280,0,1,6,0,2,M Theekshana,Mohammad Rizwan
+1327280,0,1,7,0,1,M Theekshana,Mohammad Rizwan
+1327280,0,2,1,0,1,D Madushanka,Mohammad Rizwan
+1327280,0,2,2,5,0,D Madushanka,Babar Azam
+1327280,0,2,3,0,0,D Madushanka,Babar Azam
+1327280,0,2,4,0,0,D Madushanka,Babar Azam
+1327280,0,2,5,0,0,D Madushanka,Babar Azam
+1327280,0,2,6,0,0,D Madushanka,Babar Azam
+1327280,0,2,7,0,0,D Madushanka,Babar Azam
+1327280,0,3,1,0,0,PM Liyanagamage,Mohammad Rizwan
+1327280,0,3,2,1,0,PM Liyanagamage,Mohammad Rizwan
+1327280,0,3,3,0,2,PM Liyanagamage,Mohammad Rizwan
+1327280,0,3,4,0,0,PM Liyanagamage,Mohammad Rizwan
+1327280,0,3,5,0,2,PM Liyanagamage,Babar Azam
+1327280,0,3,6,0,2,PM Liyanagamage,Babar Azam
+1327280,0,3,7,0,2,PM Liyanagamage,Babar Azam
+1327280,0,4,1,0,0,DM de Silva,Fakhar Zaman
+1327280,0,4,2,0,0,DM de Silva,Fakhar Zaman
+1327280,0,4,3,0,1,DM de Silva,Fakhar Zaman
+1327280,0,4,4,0,1,DM de Silva,Babar Azam
+1327280,0,4,5,0,0,DM de Silva,Fakhar Zaman
+1327280,0,4,6,0,1,DM de Silva,Fakhar Zaman
+1327280,0,5,1,0,4,PM Liyanagamage,Fakhar Zaman
+1327280,0,5,2,0,2,PM Liyanagamage,Fakhar Zaman
+1327280,0,5,3,0,1,PM Liyanagamage,Fakhar Zaman
+1327280,0,5,4,0,4,PM Liyanagamage,Babar Azam
+1327280,0,5,5,0,1,PM Liyanagamage,Babar Azam
+1327280,0,5,6,0,0,PM Liyanagamage,Fakhar Zaman
+1327280,0,6,1,0,1,PWH de Silva,Babar Azam
+1327280,0,6,2,0,0,PWH de Silva,Fakhar Zaman
+1327280,0,6,3,0,0,PWH de Silva,Fakhar Zaman
+1327280,0,6,4,0,0,PWH de Silva,Fakhar Zaman
+1327280,0,6,5,0,1,PWH de Silva,Fakhar Zaman
+1327280,0,6,6,0,2,PWH de Silva,Babar Azam
+1327280,0,7,1,0,0,DM de Silva,Fakhar Zaman
+1327280,0,7,2,0,1,DM de Silva,Fakhar Zaman
+1327280,0,7,3,0,2,DM de Silva,Babar Azam
+1327280,0,7,4,0,1,DM de Silva,Babar Azam
+1327280,0,7,5,0,1,DM de Silva,Fakhar Zaman
+1327280,0,7,6,0,2,DM de Silva,Babar Azam
+1327280,0,8,1,0,1,PWH de Silva,Fakhar Zaman
+1327280,0,8,2,0,0,PWH de Silva,Babar Azam
+1327280,0,8,3,0,0,PWH de Silva,Babar Azam
+1327280,0,8,4,0,0,PWH de Silva,Babar Azam
+1327280,0,8,5,0,0,PWH de Silva,Babar Azam
+1327280,0,8,6,0,1,PWH de Silva,Babar Azam
+1327280,0,9,1,0,1,C Karunaratne,Babar Azam
+1327280,0,9,2,0,0,C Karunaratne,Fakhar Zaman
+1327280,0,9,3,0,1,C Karunaratne,Babar Azam
+1327280,0,9,4,0,1,C Karunaratne,Iftikhar Ahmed
+1327280,0,9,5,0,1,C Karunaratne,Babar Azam
+1327280,0,9,6,0,0,C Karunaratne,Iftikhar Ahmed
+1327280,0,10,1,0,0,PWH de Silva,Babar Azam
+1327280,0,10,2,0,1,PWH de Silva,Babar Azam
+1327280,0,10,3,0,1,PWH de Silva,Iftikhar Ahmed
+1327280,0,10,4,0,0,PWH de Silva,Babar Azam
+1327280,0,10,5,5,0,PWH de Silva,Khushdil Shah
+1327280,0,10,6,0,1,PWH de Silva,Khushdil Shah
+1327280,0,10,7,0,0,PWH de Silva,Iftikhar Ahmed
+1327280,0,11,1,0,1,DM de Silva,Khushdil Shah
+1327280,0,11,2,0,0,DM de Silva,Iftikhar Ahmed
+1327280,0,11,3,0,1,DM de Silva,Iftikhar Ahmed
+1327280,0,11,4,0,1,DM de Silva,Khushdil Shah
+1327280,0,11,5,0,0,DM de Silva,Iftikhar Ahmed
+1327280,0,11,6,0,1,DM de Silva,Iftikhar Ahmed
+1327280,0,12,1,0,0,M Theekshana,Iftikhar Ahmed
+1327280,0,12,2,0,1,M Theekshana,Iftikhar Ahmed
+1327280,0,12,3,0,0,M Theekshana,Khushdil Shah
+1327280,0,12,4,0,0,M Theekshana,Khushdil Shah
+1327280,0,12,5,1,0,M Theekshana,Khushdil Shah
+1327280,0,12,6,0,0,M Theekshana,Iftikhar Ahmed
+1327280,0,13,1,0,1,DM de Silva,Khushdil Shah
+1327280,0,13,2,0,1,DM de Silva,Iftikhar Ahmed
+1327280,0,13,3,0,0,DM de Silva,Khushdil Shah
+1327280,0,13,4,0,0,DM de Silva,Iftikhar Ahmed
+1327280,0,13,5,0,1,DM de Silva,Iftikhar Ahmed
+1327280,0,13,6,0,1,DM de Silva,Mohammad Nawaz
+1327280,0,14,1,0,0,PWH de Silva,Mohammad Nawaz
+1327280,0,14,2,0,1,PWH de Silva,Mohammad Nawaz
+1327280,0,14,3,0,0,PWH de Silva,Iftikhar Ahmed
+1327280,0,14,4,0,6,PWH de Silva,Iftikhar Ahmed
+1327280,0,14,5,0,0,PWH de Silva,Iftikhar Ahmed
+1327280,0,14,6,0,0,PWH de Silva,Asif Ali
+1327280,0,15,1,0,0,M Theekshana,Mohammad Nawaz
+1327280,0,15,2,0,0,M Theekshana,Mohammad Nawaz
+1327280,0,15,3,0,2,M Theekshana,Mohammad Nawaz
+1327280,0,15,4,0,1,M Theekshana,Mohammad Nawaz
+1327280,0,15,5,1,0,M Theekshana,Hasan Ali
+1327280,0,15,6,0,0,M Theekshana,Hasan Ali
+1327280,0,15,7,0,0,M Theekshana,Hasan Ali
+1327280,0,16,1,0,0,D Madushanka,Usman Qadir
+1327280,0,16,2,0,1,D Madushanka,Usman Qadir
+1327280,0,16,3,0,1,D Madushanka,Mohammad Nawaz
+1327280,0,16,4,0,0,D Madushanka,Usman Qadir
+1327280,0,16,5,0,1,D Madushanka,Usman Qadir
+1327280,0,16,6,0,4,D Madushanka,Mohammad Nawaz
+1327280,0,17,1,0,1,M Theekshana,Usman Qadir
+1327280,0,17,2,0,6,M Theekshana,Mohammad Nawaz
+1327280,0,17,3,0,0,M Theekshana,Mohammad Nawaz
+1327280,0,17,4,0,1,M Theekshana,Mohammad Nawaz
+1327280,0,17,5,0,0,M Theekshana,Usman Qadir
+1327280,0,17,6,0,0,M Theekshana,Mohammad Nawaz
+1327280,0,18,1,0,1,D Madushanka,Haris Rauf
+1327280,0,18,2,1,0,D Madushanka,Mohammad Nawaz
+1327280,0,18,3,0,0,D Madushanka,Mohammad Nawaz
+1327280,0,18,4,0,2,D Madushanka,Mohammad Nawaz
+1327280,0,18,5,0,6,D Madushanka,Mohammad Nawaz
+1327280,0,18,6,0,1,D Madushanka,Mohammad Nawaz
+1327280,0,18,7,0,0,D Madushanka,Mohammad Hasnain
+1327280,0,19,1,0,0,PM Liyanagamage,Haris Rauf
+1327280,1,0,1,0,1,Mohammad Hasnain,P Nissanka
+1327280,1,0,2,0,0,Mohammad Hasnain,BKG Mendis
+1327280,1,0,3,0,0,Mohammad Hasnain,MD Gunathilaka
+1327280,1,0,4,1,0,Mohammad Hasnain,MD Gunathilaka
+1327280,1,0,5,0,0,Mohammad Hasnain,P Nissanka
+1327280,1,0,6,0,0,Mohammad Hasnain,P Nissanka
+1327280,1,1,1,0,0,Haris Rauf,MD Gunathilaka
+1327280,1,1,2,0,0,Haris Rauf,MD Gunathilaka
+1327280,1,1,3,0,0,Haris Rauf,DM de Silva
+1327280,1,1,4,0,1,Haris Rauf,DM de Silva
+1327280,1,1,5,0,0,Haris Rauf,P Nissanka
+1327280,1,1,6,0,0,Haris Rauf,P Nissanka
+1327280,1,2,1,0,1,Mohammad Hasnain,DM de Silva
+1327280,1,2,2,0,1,Mohammad Hasnain,P Nissanka
+1327280,1,2,3,0,0,Mohammad Hasnain,DM de Silva
+1327280,1,2,4,0,0,Mohammad Hasnain,DM de Silva
+1327280,1,2,5,0,1,Mohammad Hasnain,DM de Silva
+1327280,1,2,6,0,1,Mohammad Hasnain,P Nissanka
+1327280,1,3,1,0,4,Hasan Ali,P Nissanka
+1327280,1,3,2,1,0,Hasan Ali,P Nissanka
+1327280,1,3,3,1,0,Hasan Ali,DM de Silva
+1327280,1,3,4,0,4,Hasan Ali,P Nissanka
+1327280,1,3,5,0,4,Hasan Ali,P Nissanka
+1327280,1,3,6,0,1,Hasan Ali,P Nissanka
+1327280,1,4,1,0,1,Haris Rauf,P Nissanka
+1327280,1,4,2,0,0,Haris Rauf,DM de Silva
+1327280,1,4,3,0,2,Haris Rauf,DM de Silva
+1327280,1,4,4,0,4,Haris Rauf,DM de Silva
+1327280,1,4,5,0,0,Haris Rauf,DM de Silva
+1327280,1,4,6,0,0,Haris Rauf,DM de Silva
+1327280,1,5,1,0,0,Hasan Ali,P Nissanka
+1327280,1,5,2,0,0,Hasan Ali,P Nissanka
+1327280,1,5,3,0,4,Hasan Ali,P Nissanka
+1327280,1,5,4,0,0,Hasan Ali,P Nissanka
+1327280,1,5,5,0,4,Hasan Ali,P Nissanka
+1327280,1,5,6,0,0,Hasan Ali,P Nissanka
+1327280,1,6,1,0,1,Mohammad Nawaz,PBB Rajapaksa
+1327280,1,6,2,0,1,Mohammad Nawaz,P Nissanka
+1327280,1,6,3,0,2,Mohammad Nawaz,PBB Rajapaksa
+1327280,1,6,4,0,2,Mohammad Nawaz,PBB Rajapaksa
+1327280,1,6,5,0,1,Mohammad Nawaz,PBB Rajapaksa
+1327280,1,6,6,0,1,Mohammad Nawaz,P Nissanka
+1327280,1,7,1,0,1,Usman Qadir,P Nissanka
+1327280,1,7,2,0,0,Usman Qadir,PBB Rajapaksa
+1327280,1,7,3,0,0,Usman Qadir,PBB Rajapaksa
+1327280,1,7,4,0,6,Usman Qadir,PBB Rajapaksa
+1327280,1,7,5,0,0,Usman Qadir,PBB Rajapaksa
+1327280,1,7,6,0,1,Usman Qadir,PBB Rajapaksa
+1327280,1,8,1,0,0,Mohammad Nawaz,PBB Rajapaksa
+1327280,1,8,2,0,0,Mohammad Nawaz,PBB Rajapaksa
+1327280,1,8,3,0,1,Mohammad Nawaz,PBB Rajapaksa
+1327280,1,8,4,0,1,Mohammad Nawaz,P Nissanka
+1327280,1,8,5,0,1,Mohammad Nawaz,PBB Rajapaksa
+1327280,1,8,6,0,1,Mohammad Nawaz,P Nissanka
+1327280,1,9,1,0,1,Usman Qadir,P Nissanka
+1327280,1,9,2,0,6,Usman Qadir,PBB Rajapaksa
+1327280,1,9,3,0,1,Usman Qadir,PBB Rajapaksa
+1327280,1,9,4,0,2,Usman Qadir,P Nissanka
+1327280,1,9,5,0,0,Usman Qadir,P Nissanka
+1327280,1,9,6,0,1,Usman Qadir,P Nissanka
+1327280,1,10,1,0,1,Mohammad Nawaz,P Nissanka
+1327280,1,10,2,0,0,Mohammad Nawaz,PBB Rajapaksa
+1327280,1,10,3,0,1,Mohammad Nawaz,PBB Rajapaksa
+1327280,1,10,4,0,1,Mohammad Nawaz,P Nissanka
+1327280,1,10,5,0,1,Mohammad Nawaz,PBB Rajapaksa
+1327280,1,10,6,0,1,Mohammad Nawaz,P Nissanka
+1327280,1,11,1,0,6,Usman Qadir,P Nissanka
+1327280,1,11,2,0,1,Usman Qadir,P Nissanka
+1327280,1,11,3,0,0,Usman Qadir,PBB Rajapaksa
+1327280,1,11,4,0,0,Usman Qadir,P Nissanka
+1327280,1,11,5,0,2,Usman Qadir,P Nissanka
+1327280,1,11,6,0,1,Usman Qadir,P Nissanka
+1327280,1,12,1,0,1,Mohammad Nawaz,P Nissanka
+1327280,1,12,2,0,1,Mohammad Nawaz,MD Shanaka
+1327280,1,12,3,0,0,Mohammad Nawaz,P Nissanka
+1327280,1,12,4,0,1,Mohammad Nawaz,P Nissanka
+1327280,1,12,5,0,1,Mohammad Nawaz,MD Shanaka
+1327280,1,12,6,0,0,Mohammad Nawaz,P Nissanka
+1327280,1,13,1,0,1,Usman Qadir,MD Shanaka
+1327280,1,13,2,0,1,Usman Qadir,P Nissanka
+1327280,1,13,3,0,0,Usman Qadir,MD Shanaka
+1327280,1,13,4,0,0,Usman Qadir,MD Shanaka
+1327280,1,13,5,0,1,Usman Qadir,MD Shanaka
+1327280,1,13,6,1,1,Usman Qadir,P Nissanka
+1327280,1,13,7,0,0,Usman Qadir,MD Shanaka
+1327280,1,14,1,0,1,Haris Rauf,P Nissanka
+1327280,1,14,2,0,0,Haris Rauf,MD Shanaka
+1327280,1,14,3,0,0,Haris Rauf,MD Shanaka
+1327280,1,14,4,0,4,Haris Rauf,MD Shanaka
+1327280,1,14,5,0,6,Haris Rauf,MD Shanaka
+1327280,1,14,6,0,0,Haris Rauf,MD Shanaka
+1327280,1,15,1,0,1,Hasan Ali,P Nissanka
+1327280,1,15,2,0,0,Hasan Ali,MD Shanaka
+1327280,1,15,3,0,1,Hasan Ali,MD Shanaka
+1327280,1,15,4,0,0,Hasan Ali,P Nissanka
+1327280,1,15,5,0,0,Hasan Ali,P Nissanka
+1327280,1,15,6,0,2,Hasan Ali,P Nissanka
+1327280,1,16,1,0,6,Mohammad Hasnain,MD Shanaka
+1327280,1,16,2,0,0,Mohammad Hasnain,MD Shanaka
+1327280,1,16,3,1,0,Mohammad Hasnain,P Nissanka
+1327280,1,16,4,0,4,Mohammad Hasnain,PWH de Silva
+1327280,1,16,5,0,2,Mohammad Hasnain,PWH de Silva
+1327280,1,16,6,0,4,Mohammad Hasnain,PWH de Silva
