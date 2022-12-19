@@ -38,25 +38,23 @@ def extractwicketinfo(match_id, inning_number):
     return over, ball_number, bowler, batter, description
 
 
-def InsertBallInfo(matchlist):
+def InsertWicketInfo(matchlist):
     for match_id in matchlist:
         match_db = pd.read_csv("Match.csv")
         player_db = pd.read_csv("Playerdatabase.csv")
         wicket_db = pd.read_csv("wicketinfo.csv")
         if int(match_id) in match_db['MatchID'].values:
-            for y in range(2):
-                over, ball_number, bowler, batter, description = extractwicketinfo(
-                    match_id=match_id, inning_number=y)
-                for i in range(len(over)):
-                    batter_id = player_db.loc[player_db['Scrapped Name']
-                                              == batter[i]]
-                    batter_id = batter_id['ID'].values[0]
-                    bowler_id = player_db.loc[player_db['Scrapped Name']
-                                              == bowler[i]]
-                    bowler_id = bowler_id['ID'].values[0]
-                    wicket_db = wicket_db.append({'MatchId': match_id, 'Inning': y, 'Over': over[i], 'BallNumber': ball_number[
-                                                 i], 'Bowler': bowler_id, 'Batter': batter_id, 'Description': description[i]}, ignore_index=True)
+            if int(match_id) not in wicket_db['MatchId'].values:
+                for y in range(2):
+                    over, ball_number, bowler, batter, description = extractwicketinfo(
+                        match_id=match_id, inning_number=y)
+                    for i in range(len(over)):
+                        batter_id = player_db.loc[player_db['Scrapped Name']
+                                                  == batter[i]]
+                        batter_id = batter_id['ID'].values[0]
+                        bowler_id = player_db.loc[player_db['Scrapped Name']
+                                                  == bowler[i]]
+                        bowler_id = bowler_id['ID'].values[0]
+                        wicket_db = wicket_db.append({'MatchId': match_id, 'Inning': y, 'Over': over[i], 'BallNumber': ball_number[
+                            i], 'Bowler': bowler_id, 'Batter': batter_id, 'Description': description[i]}, ignore_index=True)
     wicket_db.to_csv("wicketinfo.csv", index=False)
-
-
-InsertBallInfo([1327281])

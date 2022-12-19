@@ -74,6 +74,7 @@ def insert_match_info(match_list):
         match_id, match_type, match_date, event_name, event_stage, field_umpires_1, field_umpires_2, tv_umpire, winner_team, result_description, player_of_match, season, team_type, team_1, team_2 = extract_matchinfo(
             matches)
         if int(matches) not in match_db['MatchID'].values:
+            print(player_of_match)
             player_db = player_db.loc[player_db['Scrapped Name']
                                       == player_of_match]
             player_of_match = player_db['ID'].values[0]

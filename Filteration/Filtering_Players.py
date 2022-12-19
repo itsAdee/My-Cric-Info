@@ -14,6 +14,7 @@ def extract_playerInfo(matchlist):
         for team, players in json_data['info']['players'].items():
             i = 1
             for player in players:
+                print(player)
                 if (player not in new_data_frame['Scrapped Name'].values):
                     if (player in player_db['NAME'].values):
                         my_series = player_db.loc[player_db['NAME'] == player]
@@ -29,7 +30,7 @@ def extract_playerInfo(matchlist):
                         new_data_frame.loc[len(new_data_frame.index)] = [id, first_name, last_name, player, team, date_of_birth,
                                                                          alive, batting_style, bowling_style]
                     else:
-                        search_term = player + " espncricinfo "
+                        search_term = player
                         player_id = Scrapper(search_term, i)
                         first_name, last_name, batting_style, bowling_style, playing_role, date_of_birth = Player_Stats(
                             player_id)
@@ -37,3 +38,6 @@ def extract_playerInfo(matchlist):
                                                                          'Alive', batting_style, bowling_style]
                     i += 1
     new_data_frame.to_csv('Playerdatabase.csv', index=False)
+
+
+extract_playerInfo(['1298158', '1298163', '1298170'])

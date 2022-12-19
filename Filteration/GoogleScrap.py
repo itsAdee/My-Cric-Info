@@ -3,22 +3,39 @@ from player import Player
 
 
 def Scrapper(player_name, x):
-    x = int(x)
-    url = "https://google-search72.p.rapidapi.com/search"
-    querystring = {"query": player_name, "gl": "us", "lr": "en",
-                   "num": "10", "start": "0", "sort": "relevance"}
-    my_keys = ['67c4a6c3f1mshaeb2eeb56f92973p1bcca3jsnf3f40b3493d1']
-    x = x % 3
-    # '67c4a6c3f1mshaeb2eeb56f92973p1bcca3jsnf3f40b3493d1',
-    #            "bde94c942fmsh5b4416bfd8affc3p19da36jsn751bd5c93def",
+    # x = int(x)
+    # url = "https://google-search72.p.rapidapi.com/search"
+    # querystring = {"query": player_name, "gl": "us", "lr": "en",
+    #                "num": "10", "start": "0", "sort": "relevance"}
+    # my_keys = ['67c4a6c3f1mshaeb2eeb56f92973p1bcca3jsnf3f40b3493d1']
+    # x = x % 3
+    # # '67c4a6c3f1mshaeb2eeb56f92973p1bcca3jsnf3f40b3493d1',
+
+    # headers = {
+    #     "X-RapidAPI-Key": my_keys[0],
+    #     "X-RapidAPI-Host": "google-search72.p.rapidapi.com"
+    # }
+    # response = requests.request(
+    #     "GET", url, headers=headers, params=querystring)
+    # number = response.json()
+    # number = number['items'][0]['link'].split('-')[-1]
+    url = "https://g-search.p.rapidapi.com/search"
+    my_url = player_name + " espn cricinfo"
+
+    querystring = {"q": my_url, "location_name": "London,Ontario,Canada",
+                   "location_parameters_auto": "true"}
+
     headers = {
-        "X-RapidAPI-Key": my_keys[0],
-        "X-RapidAPI-Host": "google-search72.p.rapidapi.com"
+        "X-RapidAPI-Key": "67c4a6c3f1mshaeb2eeb56f92973p1bcca3jsnf3f40b3493d1",
+        "X-RapidAPI-Host": "g-search.p.rapidapi.com"
     }
+
     response = requests.request(
         "GET", url, headers=headers, params=querystring)
     number = response.json()
-    number = number['items'][0]['link'].split('-')[-1]
+    print(response.text)
+    number = number['data']['organic_results'][0]['url'].split('-')[-1]
+
     return number
 
 
@@ -35,5 +52,5 @@ def Player_Stats(x):
     return first_name, last_name, batting_style, bowling_style, playing_role, dob
 
 
-print(Player(1028655).bowling_style)
-print(Scrapper("BKG Mendis", 1))
+# print(Player(1028655).bowling_style)
+print(Scrapper("WD Parnell", 1))

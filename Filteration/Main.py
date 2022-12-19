@@ -7,6 +7,7 @@ import random
 from Filtering_Players import extract_playerInfo
 from Series_MatchInfo import extract_matchinfo, extract_series_info, insert_series_info, insert_match_info
 from ExtractBallInformation import extractballinfo, InsertBallInfo, extract_batterInfo, extract_bowlerInfo
+from ExtractWicketInfromation import extractwicketinfo, InsertWicketInfo
 
 
 def FindParticularMatches(title, season):
@@ -29,8 +30,8 @@ def FindParticularMatches(title, season):
 
 
 my_matches = FindParticularMatches("ICC Men's T20 World Cup", '2022/23')
-# extract_playerInfo(my_matches[0])
-# insert_series_info(my_matches[0:1])
-# insert_match_info(my_matches[0:1])
-# InsertBallInfo(my_matches[0:1])
-print(my_matches)
+# extract_playerInfo(my_matches)
+# insert_series_info(my_matches)
+# insert_match_info(['1298158'])
+InsertBallInfo(['1298158'])
+InsertWicketInfo(['1298158'])
