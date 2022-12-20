@@ -1,110 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home page</title>
-    <link rel="stylesheet" href="{{url_for('static',filename='css/home_page_style.css')}}">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename='css/home_page_style.css')}}"
+    />
+  </head>
+  <body>
     {%include 'nav.html' %}
     <script id="replace_with_navbar" src="nav.js"></script>
     <div class="wc-table-wrapper">
-        <div class="table-section">
-          <div>
-            <div class="table-title"><img src="https://lipis.github.io/flag-icon-css/flags/4x3/in.svg" alt="Indian Flag" /> {{team[0]}}</div>
-            <table class="wc-table">
-              <thead>
-                <tr class="head">
-                  <th colspan="3">{{live_s[0]['score'][0]}} - {{live_s[0]['score'][1]}}</th>
-                </tr>
-              </thead>
-              <tbody>
-                {%for player in live_s[0]['India'][0] %}
-                <tr>
-                  <td>{{player}}</td>
-                  <td>{{live_s[0]['India'][0][player][0]}}</td>
-                  <td>{{live_s[0]['India'][0][player][1]}}</td>
-                </tr>
-                {%endfor%}
-                <tr class="head">
-                  <td colspan="3">Over 50</td>
-                </tr>
-                <tr>
-                  <td>Amir</td>
-                  <td>3-47</td>
-                  <td>10</td>
-                </tr>
-                <tr>
-                  <td>Wahab</td>
-                  <td>1-71</td>
-                  <td>10</td>
-                </tr>
-                <tr>
-                  <td>Hassan</td>
-                  <td>1-84</td>
-                  <td>9</td>
-                </tr>
-              </tbody>
-            </table>
+      <div class="table-section">
+        <div>
+          <div class="table-title">
+            <img
+              src="https://lipis.github.io/flag-icon-css/flags/4x3/in.svg"
+              alt="Indian Flag"
+            />
+            testing
           </div>
-          <div>
-            <div class="table-title">Pakistan <img src="https://lipis.github.io/flag-icon-css/flags/4x3/pk.svg" alt="Pakistan Flag" /></div>
-            <table class="wc-table">
-              <thead>
-                <tr class="head">
-                  <th colspan="3">166-6</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Fakhar</td>
-                  <td>62</td>
-                  <td>75</td>
-                </tr>
-                <tr>
-                  <td>Babar</td>
-                  <td>48</td>
-                  <td>57</td>
-                </tr>
-                <tr>
-                  <td>Imad</td>
-                  <td>22<sup>*</sup></td>
-                  <td>20</td>
-                </tr>
-                <tr>
-                  <td>Sarfaraz</td>
-                  <td>12</td>
-                  <td>30</td>
-                </tr>
-                <tr class="head">
-                  <td colspan="3">Over 35</td>
-                </tr>
-                <tr>
-                  <td>V Shankar</td>
-                  <td>2-22</td>
-                  <td>5.2</td>
-                </tr>
-                <tr>
-                  <td>Kuldeep</td>
-                  <td>2-32</td>
-                  <td>9</td>
-                </tr>
-                <tr>
-                  <td>Hardik</td>
-                  <td>2-40</td>
-                  <td>7</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+          <table class="wc-table">
+            <thead>
+              <tr class="head">
+                <th colspan="3">testing</th>
+              </tr>
+            </thead>
+            <tbody>
+              {%for player in live_s%}
+              <tr>
+                <td>{{player[0]}}</td>
+                <td>{{player[1]}}</td>
+                <td>{{player[2]}}</td>
+              </tr>
+              {%endfor%}
+              <tr class="head">
+                <td colspan="3">Over 50</td>
+              </tr>
+              <tr>
+                <td>Amir</td>
+                <td>3-47</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <td>Wahab</td>
+                <td>1-71</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <td>Hassan</td>
+                <td>1-84</td>
+                <td>9</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-        <div class="footer-section">
-          <div class="wc-table-footer">
-            To win, Pakistan require 171 runs with 90 balls remaining.
+        <div>
+          <div class="table-title">
+            Pakistan
+            <img
+              src="https://lipis.github.io/flag-icon-css/flags/4x3/pk.svg"
+              alt="Pakistan Flag"
+            />
           </div>
+          <table class="wc-table">
+            <thead>
+              <tr class="head">
+                <th colspan="3">166-6</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Fakhar</td>
+                <td>62</td>
+                <td>75</td>
+              </tr>
+              <tr>
+                <td>Babar</td>
+                <td>48</td>
+                <td>57</td>
+              </tr>
+              <tr>
+                <td>Imad</td>
+                <td>22<sup>*</sup></td>
+                <td>20</td>
+              </tr>
+              <tr>
+                <td>Sarfaraz</td>
+                <td>12</td>
+                <td>30</td>
+              </tr>
+              <tr class="head">
+                <td colspan="3">Over 35</td>
+              </tr>
+              <tr>
+                <td>V Shankar</td>
+                <td>2-22</td>
+                <td>5.2</td>
+              </tr>
+              <tr>
+                <td>Kuldeep</td>
+                <td>2-32</td>
+                <td>9</td>
+              </tr>
+              <tr>
+                <td>Hardik</td>
+                <td>2-40</td>
+                <td>7</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
-</body>
+      <div class="footer-section">
+        <div class="wc-table-footer">
+          To win, Pakistan require 171 runs with 90 balls remaining.
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
