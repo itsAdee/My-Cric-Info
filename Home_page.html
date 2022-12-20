@@ -1,134 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    l
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home page</title>
+    <title>Home Page</title>
     <link rel="stylesheet" href="home_page_style.css" />
+    <style>
+      h2 {
+        background-color: rgba(38, 5, 5, 0.926);
+        display: inline-flex;
+        border-width: 10px;
+        color: aliceblue;
+        margin-top: 30px;
+        margin-left: 41%;
+        padding: 0 8px;
+      }
+    </style>
   </head>
   <body>
     <script id="replace_with_navbar" src="nav.js"></script>
-    <div class="wc-table-wrapper">
-      <div class="table-section">
-        <div>
-          <div class="table-title">
-            <img
-              src="https://lipis.github.io/flag-icon-css/flags/4x3/in.svg"
-              alt="Indian Flag"
-            />
-            India
-          </div>
-          <table class="wc-table">
-            <thead>
-              <tr class="head">
-                <th colspan="3">336-5</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Rohit</td>
-                <td>140</td>
-                <td>113</td>
-              </tr>
-              <tr>
-                <td>Kohli</td>
-                <td>77</td>
-                <td>65</td>
-              </tr>
-              <tr>
-                <td>KL Rahul</td>
-                <td>57</td>
-                <td>78</td>
-              </tr>
-              <tr>
-                <td>Hardik</td>
-                <td>26</td>
-                <td>19</td>
-              </tr>
-              <tr class="head">
-                <td colspan="3">Over 50</td>
-              </tr>
-              <tr>
-                <td>Amir</td>
-                <td>3-47</td>
-                <td>10</td>
-              </tr>
-              <tr>
-                <td>Wahab</td>
-                <td>1-71</td>
-                <td>10</td>
-              </tr>
-              <tr>
-                <td>Hassan</td>
-                <td>1-84</td>
-                <td>9</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div>
-          <div class="table-title">
-            Pakistan
-            <img
-              src="https://lipis.github.io/flag-icon-css/flags/4x3/pk.svg"
-              alt="Pakistan Flag"
-            />
-          </div>
-          <table class="wc-table">
-            <thead>
-              <tr class="head">
-                <th colspan="3">166-6</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Fakhar</td>
-                <td>62</td>
-                <td>75</td>
-              </tr>
-              <tr>
-                <td>Babar</td>
-                <td>48</td>
-                <td>57</td>
-              </tr>
-              <tr>
-                <td>Imad</td>
-                <td>22<sup>*</sup></td>
-                <td>20</td>
-              </tr>
-              <tr>
-                <td>Sarfaraz</td>
-                <td>12</td>
-                <td>30</td>
-              </tr>
-              <tr class="head">
-                <td colspan="3">Over 35</td>
-              </tr>
-              <tr>
-                <td>V Shankar</td>
-                <td>2-22</td>
-                <td>5.2</td>
-              </tr>
-              <tr>
-                <td>Kuldeep</td>
-                <td>2-32</td>
-                <td>9</td>
-              </tr>
-              <tr>
-                <td>Hardik</td>
-                <td>2-40</td>
-                <td>7</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <div class="footer-section">
-        <div class="wc-table-footer">
-          To win, Pakistan require 171 runs with 90 balls remaining.
-        </div>
-      </div>
+    <div class="tableside">
+      <h2 style="text-align: center">Live Matches</h2>
+      <table>
+        <tbody id="allMatches">
+          <tr></tr>
+        </tbody>
+      </table>
     </div>
+    <!-- <div class="column">
+      <div class="main">
+        <p class="head">
+          Cricket World Cup 2019 <span class="right day">Yesterday</span>
+        </p>
+        <br />
+
+        <table class="table">
+          <tr>
+            <td>
+              <img
+                class="flag"
+                src="https://i.imgur.com/717RRSi.png"
+                alt=""
+              />&emsp;<span>IND</span><br /><br />
+              <p class="score">336/5</p>
+              <p class="overs">(50)</p>
+            </td>
+            <td class="right1">
+              <span>PAK</span>&emsp;<img
+                class="flag"
+                src="https://i.imgur.com/ZxbFH9r.png"
+                alt=""
+              /><br /><br />
+              <p class="score pak">212/6</p>
+              <p class="overs pak">(40)</p>
+            </td>
+          </tr>
+        </table>
+        <center>
+          <p class="target"><u>Target 302</u></p>
+          <p class="res">India won by 89 runs (DLS method)</p>
+          <p class="match">ODI 22 of 38</p>
+        </center>
+      </div>
+    </div> -->
+
+    <!-- <div style="justify-content: right;">
+      <div class="container height-100 d-flex justify-content-center align-items-center">
+    
+        <div class="card">
+         
+            <iframe width="380" height="220" src="https://www.youtube.com/embed/6ja-DekjKg0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="p-3 content">
+                <span>Featured Video</span>
+                <h4>Set for the Ashes</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            
+            <div class="p-3 d-flex justify-content-between align-items-center">
+                <div class="about">
+                    
+                    <span><i class="fa fa-heart"></i> <small>12</small></span>
+                    <span class="ml-2"><i class="fa fa-envelope"></i> <small>12</small></span>
+                </div>
+                <div class="angle">
+                    <i class="fa fa-angle-left"></i>
+                    <i class="fa fa-angle-right"></i>
+                </div>
+            </div>
+            
+        </div>
+        
+        
+    </div>
+    </div>
+
+ -->
+
+
   </body>
+  <script src="Home_page.js"></script>
 </html>
