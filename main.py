@@ -1,31 +1,43 @@
-from flask import Flask, render_template, request, redirect, url_for;
+from flask import *
+import pymysql.connections
+from flask_wtf import FlaskForm
+from wtforms import StringField, SubmitField
+from wtforms.validators import DataRequired
+
 
 app = Flask(__name__)
+app.config.update(dict(
+    SECRET_KEY="powerful secretkey",
+    WTF_CSRF_SECRET_KEY="a csrf secret key"
+))
+class MyForm(FlaskForm):
+    name = StringField('name', validators=[DataRequired()])
+    submit = SubmitField('Submit')
 
-@app.route('/')
+
+
+@app.route('/',methods=['GET','POST'])
 def index():
-    live=[{'India':[{'rohit':[140,113],'kohli':[77,65],
-    'dhoni':[57,78],'jadeja':[0,1],'raina':[26,18],'pandya':[35,16]},{
-    'amir':[3,47,10],
-    'shadab':[1,71,10],'shoaib':[1,84,9],'hassan':[1,104,20]
-    }],'score':[336,5],'overs':50}]
-    key=list(live[0].keys())
-    return render_template('Home_page.html',team=key,live_s=live)
+    page='live matches'
+    messages=[]
+    name=None
+    form = MyForm()
+    if form.validate_on_submit():
+        name = form.name.data
+        form.name.data = ''
+    if request.method == 'POST':
+        name = request.form["name"]
+        return render_template('home.html',form=form,page=page)
+ 
+    return render_template('form.html',form=form,page=page)
+
 
 @app.route('/home')
 def Home_page():
-    return render_template('Home_page.html')
-
-@app.route('/stats')
-def stats():
-    return render_template('stats.html')
-
-
-@app.route('/sample')
-def sample():
-    return render_template('sample.html')
-    
+    return render_template('nav.html')
 
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+
