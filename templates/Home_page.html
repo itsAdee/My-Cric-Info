@@ -1,51 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home page</title>
-    <link
-      rel="stylesheet"
-      href="{{url_for('static',filename='css/home_page_style.css')}}"
-    />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/home_page_style.css')}}" />
+
+    <style>
+      
+
+      * {
+        box-sizing: border-box;
+      }
+
+      /* Create two equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 300px; /* Should be removed. Only for demonstration */
+        border: 1px solid #ee7575;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    </style>
   </head>
-  <body>
-    {%include 'nav.html' %}
-    <script id="replace_with_navbar" src="nav.js"></script>
-    <div class="wc-table-wrapper">
-      <div class="table-section">
-        {%for playe in range(5)%}
-        <div>
-          <div class="table-title">
-            <img
-              src="https://lipis.github.io/flag-icon-css/flags/4x3/in.svg"
-              alt="Indian Flag"
-            />
-            testing
+  <body style = "background:#ffffff">
+    {%include 'nav.html'%}
+
+    <h2 style="text-align: center">Live Matches</h2>
+    <div class="tableside">
+      <!-- <table>
+        <tbody id="allMatches">
+          <tr></tr>
+        </tbody>
+      </table> -->
+    </div>
+    <div style="width: 70%">
+      <div class="row">
+        <div class="column" style="height: auto">
+          <div class="main">
+            <p class="head">
+              Cricket World Cup 2019 <span class="right day">Yesterday</span>
+            </p>
+            <br />
+
+            <table class="table" style="cursor: pointer;">
+              <tr onclick=location.href="{{url_for('index') }}">
+                <td>
+                  
+                 <span>IND</span><br /><br />
+                  <p class="score">336/5</p>
+                  <br>
+                  <p class="overs">(50)</p>
+                </td>
+                <td class="right1">
+                  <span>PAK</span><br /><br />
+                    
+                  <p class="score pak">212/6</p>
+                  <br>
+                  <p class="overs pak">(40)</p>
+                </td>
+              </tr>
+            </table>
+            <center>
+              <p class="target"><u>Target 302</u></p>
+              <br>
+              <p class="res">India won by 89 runs (DLS method)</p>
+              <p class="match">ODI 22 of 38</p>
+            </center>
           </div>
-          <table class="wc-table">
-            <thead>
-              <tr class="head">
-                <th colspan="3">testing</th>
-              </tr>
-            </thead>
-            <tbody>
-              {%for player in live_s%}
-              <tr>
-                <td>{{player[0]}}</td>
-                <td>{{player[1]}}</td>
-                <td>{{player[2]}}</td>
-              </tr>
-              {%endfor%}
-            </tbody>
-          </table>
         </div>
-        {%endfor%}
-        <div>
-      </div>
-      <div class="footer-section">
-      </div>
-    </div> 
+        </div>
+        </div>
+        </div>
+
+        
+    <!-- <div style="justify-content: right;">
+      <div class="container height-100 d-flex justify-content-center align-items-center">
+    
+        <div class="card">
+         
+            <iframe width="380" height="220" src="https://www.youtube.com/embed/6ja-DekjKg0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="p-3 content">
+                <span>Featured Video</span>
+                <h4>Set for the Ashes</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            
+            <div class="p-3 d-flex justify-content-between align-items-center">
+                <div class="about">
+                    
+                    <span><i class="fa fa-heart"></i> <small>12</small></span>
+                    <span class="ml-2"><i class="fa fa-envelope"></i> <small>12</small></span>
+                </div>
+                <div class="angle">
+                    <i class="fa fa-angle-left"></i>
+                    <i class="fa fa-angle-right"></i>
+                </div>
+            </div>
+            
+        </div>
+        
+        
+    </div>
+    </div>
+
+ -->
+
+
+
+ <div class="dummy_page">
+  
+</div>
+<!-- FOOTER START -->
+<div class="footer">
+  <div class="contain">
+  <div class="col">
+    <h1>Company</h1>
+    <ul>
+      <li>About</li>
+      <li>Mission</li>
+      <li>Services</li>
+      <li>Social</li>
+      <li>Get in touch</li>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Products</h1>
+    <ul>
+      <li>About</li>
+      <li>Mission</li>
+      <li>Services</li>
+      <li>Social</li>
+      <li>Get in touch</li>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Accounts</h1>
+    <ul>
+      <li>About</li>
+      <li>Mission</li>
+      <li>Services</li>
+      <li>Social</li>
+      <li>Get in touch</li>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Resources</h1>
+    <ul>
+      <li>Webmail</li>
+      <li>Redeem code</li>
+      <li>WHOIS lookup</li>
+      <li>Site map</li>
+      <li>Web templates</li>
+      <li>Email templates</li>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Support</h1>
+    <ul>
+      <li>Contact us</li>
+      <li>Web chat</li>
+      <li>Open ticket</li>
+    </ul>
+  </div>
+  <div class="col social">
+    <h1>Social</h1>
+    <ul>
+      <li><img src="static\images\icons8-facebook.svg" width="32" style="width: 32px;"></li>
+      <li><img src="static\images\icons8-instagram.svg" width="32" style="width: 32px;"></li>
+      <li><img src="static\images\icons8-twitter.svg" width="32" style="width: 32px;"></li>
+    </ul>
+  </div>
+<div class="clearfix"></div>
+</div>
+</div>
+<!-- END OF FOOTER -->
+
+
   </body>
+ 
 </html>

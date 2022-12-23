@@ -7,17 +7,19 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-body{
+/* body{
   background: #f2f2f2;
-}
+} */
 nav{
-  background: 		#ffffff ;
+  background: 		#fbf1f1 ;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
   height: 70px;
   padding: 0 100px;
+  top: 0;
 }
 
 

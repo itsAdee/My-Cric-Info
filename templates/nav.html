@@ -19,11 +19,11 @@
       
       <div class="logo"><img src="{{url_for('static',filename='images/Color logo - no background.svg')}}" style="max-width: 50px; max-height: 60px"></img> Cric Info</div>
       <div class="nav-items">
-        <li><a href="{{url_for('index') }}">Home</a></li>
+        <li><a href="{{url_for('Home_page') }}">Home</a></li>
         <li><a href="{{url_for('stats') }}">Stats</a></li>
         <li><a href="#">News</a></li>
-        <li><a href="#">Teams</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="{{url_for('teams') }}">Teams</a></li>
+        <li><a href="{{url_for('player') }}">Player</a></li>
         <li><a href="{{url_for('sample') }}">sample</a></li>
       </div>
       
