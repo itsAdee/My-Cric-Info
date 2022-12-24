@@ -2,10 +2,10 @@ import csv
 import pymysql
 from pathlib import Path
 import datetime
-import pandas
+import pandas 
 
 myconnection = pymysql.connect(
-    host='localhost', user='root', password='aliadeel1')
+    host='localhost', user='root', password='SQLKAPASSWORD')
 myconnection.autocommit(True)
 mycursor = myconnection.cursor()
 cwd = Path.cwd().parent
@@ -15,8 +15,10 @@ convert_match = True
 def InsertPlayers():
     file = open('Playerdatabase.csv', 'r')
     mycursor.execute('USE cricinfosystem2')
+    valid_ids = []
     csv_data = csv.reader(file)
     skipHeader = True
+    mycursor.execute('delete from player')
     for rows in csv_data:
         if skipHeader:
             skipHeader = False
@@ -27,9 +29,11 @@ def InsertPlayers():
         country = rows[4]
         dob = rows[5].split(' ')[0]
         print(dob)
-        batting_style = rows[6]
-        bowling_style = rows[7]
-        mycursor.execute('delete from player')
+        batting_style = rows[7]
+        bowling_style = rows[8]
+        if id in valid_ids:
+            continue
+        valid_ids.append(id)
         q = 'INSERT INTO player ( player_id  ,First_name , Last_Name , Country ,DOB ,Batting_style ,Bowling_style ,fk_ID) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)'
         values = (id, first_name, last_name, country,
                   dob, batting_style, bowling_style, id)
@@ -234,5 +238,7 @@ def InsertWicketsInfo():
         values = (batter, bowler, Inning, match_id, over, Ball, Description)
         mycursor.execute(q, values)
 
-
+Insertballs()
+InsertBatter()
+InsertBowler()
 InsertWicketsInfo()
