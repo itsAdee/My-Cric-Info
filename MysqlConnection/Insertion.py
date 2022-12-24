@@ -2,10 +2,12 @@ import csv
 import pymysql
 from pathlib import Path
 import datetime
-import pandas 
+import pandas
 
+wasif_password = 'SQLKAPASSWORD'
+adeel_password = 'aliadeel1'
 myconnection = pymysql.connect(
-    host='localhost', user='root', password='SQLKAPASSWORD')
+    host='localhost', user='root', password=adeel_password)
 myconnection.autocommit(True)
 mycursor = myconnection.cursor()
 cwd = Path.cwd().parent
@@ -238,7 +240,5 @@ def InsertWicketsInfo():
         values = (batter, bowler, Inning, match_id, over, Ball, Description)
         mycursor.execute(q, values)
 
-Insertballs()
-InsertBatter()
-InsertBowler()
+
 InsertWicketsInfo()
