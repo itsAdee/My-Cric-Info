@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename='css/home_page_style.css')}}"
+    />
+  </head>
+  <body>
+    {%include 'nav.html' %}
+    <script id="replace_with_navbar" src="nav.js"></script>
+    <div class="wc-table-wrapper">
+      <div class="table-section">
+        {%for playe in range(5)%}
+        <div>
+          <div class="table-title">
+            <img
+              src="https://lipis.github.io/flag-icon-css/flags/4x3/in.svg"
+              alt="Indian Flag"
+            />
+            testing
+          </div>
+          <table class="wc-table">
+            <thead>
+              <tr class="head">
+                <th colspan="3">testing</th>
+              </tr>
+            </thead>
+            <tbody>
+              {%for player in live_s%}
+              <tr>
+                <td>{{player[0]}}</td>
+                <td>{{player[1]}}</td>
+                <td>{{player[2]}}</td>
+              </tr>
+              {%endfor%}
+            </tbody>
+          </table>
+        </div>
+        {%endfor%}
+        <div>
+      </div>
+      <div class="footer-section">
+      </div>
+    </div> 
+  </body>
+</html>
