@@ -64,6 +64,7 @@ for innings in number_of_innings:
         current_bowler[0] = names[0][0]
         Innings_bowlers.append(current_bowler)
     BowlerInfo.append(Innings_bowlers)
+    # for each innings, we will store the info of each ball in a list
     mycursor.execute('select OverNumber, BallNumber, sum(extra_runs + scored_runs) from balls where match_id = %s and inning = %s group by OverNumber, BallNumber', [
         Match_id, current_innings])
     ball_stats = mycursor.fetchall()
@@ -75,4 +76,3 @@ for innings in number_of_innings:
         current_ball.append(ball[2])
         Innings_balls.append(current_ball)
     BallsInfo.append(Innings_balls)
-    print(BallsInfo)

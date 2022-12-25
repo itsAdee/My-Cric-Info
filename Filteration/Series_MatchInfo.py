@@ -39,6 +39,7 @@ def extract_matchinfo(match_id):
 
 
 def extract_series_info(match_id):
+    print(match_id)
     match_file = open("Matches//"+str(match_id)+".json", "r")
     json_data = json.loads(match_file.read())
     event_name = json_data['info']['event']['name']
@@ -47,8 +48,8 @@ def extract_series_info(match_id):
 
 
 def insert_series_info(match_list):
-    series_db = pd.read_csv("Series.csv")
-    match_db = pd.read_csv("Match.csv")
+    series_db = pd.read_csv("Series.csv", engine='python')
+    match_db = pd.read_csv("Match.csv", engine='python')
     for matches in match_list:
         title, season = extract_series_info(matches)
         x = random.randint(100000, 9999999)
@@ -67,9 +68,9 @@ def insert_series_info(match_list):
 
 
 def insert_match_info(match_list):
-    series_db = pd.read_csv("series.csv")
-    match_db = pd.read_csv("Match.csv")
-    player_db = pd.read_csv("Playerdatabase.csv")
+    series_db = pd.read_csv("series.csv", engine='python')
+    match_db = pd.read_csv("Match.csv", engine='python')
+    player_db = pd.read_csv("Playerdatabase.csv", engine='python')
     for matches in match_list:
         match_id, match_type, match_date, event_name, event_stage, field_umpires_1, field_umpires_2, tv_umpire, winner_team, result_description, player_of_match, season, team_type, team_1, team_2 = extract_matchinfo(
             matches)

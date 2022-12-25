@@ -33,7 +33,6 @@ def Scrapper(player_name, x):
     response = requests.request(
         "GET", url, headers=headers, params=querystring)
     number = response.json()
-    print(response.text)
     number = number['data']['organic_results'][0]['url'].split('-')[-1]
 
     return number
@@ -50,7 +49,3 @@ def Player_Stats(x):
     playing_role = current_player.playing_role['name'] if current_player.playing_role else None
     dob = current_player.date_of_birth if current_player.date_of_birth else None
     return first_name, last_name, batting_style, bowling_style, playing_role, dob
-
-
-# print(Player(1028655).bowling_style)
-print(Scrapper("WD Parnell", 1))

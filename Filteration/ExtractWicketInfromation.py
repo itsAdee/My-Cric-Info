@@ -58,6 +58,3 @@ def InsertWicketInfo(matchlist):
                         wicket_db = wicket_db.append({'MatchId': match_id, 'Inning': y, 'Over': over[i], 'BallNumber': ball_number[
                             i], 'Bowler': bowler_id, 'Batter': batter_id, 'Description': description[i]}, ignore_index=True)
     wicket_db.to_csv("wicketinfo.csv", index=False)
-
-
-InsertWicketInfo([1298150])
