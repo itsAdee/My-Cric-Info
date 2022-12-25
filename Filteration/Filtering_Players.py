@@ -2,7 +2,6 @@ import json
 import pandas as pd
 import random
 from GoogleScrap import Scrapper, Player_Stats
-from player import Player
 from googlesearch import search
 import datetime
 
@@ -44,11 +43,15 @@ def extract_playerInfo(matchlist):
                         for j in search(query, tld="co.in", num=10, stop=10, pause=2):
                             player_id = j.split('-')[-1]
                             break
-                        first_name, last_name, batting_style, bowling_style, playing_role, date_of_birth = Player_Stats(
-                            player_id)
-                        new_data_frame.loc[len(new_data_frame.index)] = [player_id, first_name, last_name, player, team, date_of_birth,
-                                                                         'Alive', batting_style, bowling_style]
-                        new_data_frame.to_csv(
-                            'Playerdatabase.csv', index=False)
+                        print(player_id)
+                        try:
+                            first_name, last_name, batting_style, bowling_style, playing_role, date_of_birth = Player_Stats(
+                                player_id)
+                            new_data_frame.loc[len(new_data_frame.index)] = [player_id, first_name, last_name, player, team, date_of_birth,
+                                                                             'Alive', batting_style, bowling_style]
+                            new_data_frame.to_csv(
+                                'Playerdatabase.csv', index=False)
+                        except:
+                            continue
                     i += 1
                     new_data_frame.to_csv('Playerdatabase.csv', index=False)

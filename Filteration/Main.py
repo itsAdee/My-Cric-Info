@@ -29,7 +29,12 @@ def FindParticularMatches(title, season):
     return list
 
 
-my_matches = FindParticularMatches("Australia tour of Pakistan", '2021/22')
+my_matches = FindParticularMatches("Asia Cup", '2022')
+# my_matches = ['1298150', '1298158', '1298163', '1298163',
+#               '1298170', '1298175', '1298177', '1298179']
 # print(my_matches)
 # extract_playerInfo(my_matches)
+# insert_match_info(my_matches)
+
 InsertBallInfo(my_matches)
+InsertWicketInfo(my_matches)

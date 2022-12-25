@@ -12,7 +12,7 @@ class Player(object):
             str(player_id))
         self.json_url = "http://core.espnuk.org/v2/sports/cricket/athletes/{0}".format(
             str(player_id))
-        self.parsed_html = self.get_html()
+        # self.parsed_html = self.get_html()
         self.json = self.get_json()
         self.cricinfo_id = str(player_id)
         self.__unicode__ = self._full_name()

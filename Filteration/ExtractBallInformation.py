@@ -56,13 +56,16 @@ def InsertBallInfo(matchlist):
         player_db = pd.read_csv("Playerdatabase.csv")
         ball = pd.read_csv("BallDatabase.csv")
         if int(match_id) in match_db['MatchID'].values and int(match_id) not in ball['MatchId'].values:
+            print(match_id)
             format = match_db.loc[match_db['MatchID'] == int(match_id)]
             format = format['MatchType'].values[0]
-            if format == 'ODI' or 'T20':
+            if format == 'ODI' or format == 'T20':
                 my_range = 2
+
             elif format == 'Test':
                 my_range = 4
-            for y in range(my_range):
+
+            for y in range(4):
                 ball = pd.read_csv("BallDatabase.csv")
                 db = ball.loc[ball['MatchId'] == match_id]
                 overs = []
@@ -71,34 +74,35 @@ def InsertBallInfo(matchlist):
                 hallal_runs = []
                 bowler = []
                 batter = []
-                if y not in db['Inning'].values:
-                    ball_file = open("Matches//"+str(match_id)+".json", "r")
-                    ball_file = json.loads(ball_file.read())
-                    for i in ball_file['innings'][y]['overs']:
-                        x = 1
-                        for j in i['deliveries']:
-                            print(j['batter'])
-                            print(j['bowler'])
-                            batter_id = player_db.loc[player_db['Scrapped Name']
-                                                      == j['batter']]
-                            batter_id = batter_id['ID'].values[0]
-                            bowler_id = player_db.loc[player_db['Scrapped Name']
-                                                      == j['bowler']]
-                            bowler_id = bowler_id['ID'].values[0]
-                            ball = ball.append({'MatchId': match_id, 'Inning': y, 'Overs': i['over'], 'BallNumber': x, 'Extra': j['runs'][
-                                'extras'], 'HallalRuns': j['runs']['batter'], 'Bowler': bowler_id, 'Batter': batter_id}, ignore_index=True)
-                            overs.append(i['over'])
-                            hallal_runs.append(j['runs']['batter'])
-                            extra.append(j['runs']['extras'])
-                            ball_number.append(x)
-                            bowler.append(bowler_id)
-                            batter.append(batter_id)
-                            x += 1
-                    Inning_db = pd.DataFrame({'MatchId': match_id, 'Inning': y, 'Overs': overs, 'BallNumber': ball_number,
-                                              'Extra': extra, 'HallalRuns': hallal_runs, 'Bowler': bowler, 'Batter': batter})
-                    extract_batterInfo(Inning_db, y, match_id)
-                    extract_bowlerInfo(Inning_db, y, match_id)
-                ball.to_csv("BallDatabase.csv", index=False)
-
-
-InsertBallInfo(['1311737', '1311738', '1311739'])
+                try:
+                    if y not in db['Inning'].values:
+                        ball_file = open(
+                            "Matches//"+str(match_id)+".json", "r")
+                        ball_file = json.loads(ball_file.read())
+                        for i in ball_file['innings'][y]['overs']:
+                            x = 1
+                            for j in i['deliveries']:
+                                print(j['batter'])
+                                print(j['bowler'])
+                                batter_id = player_db.loc[player_db['Scrapped Name']
+                                                          == j['batter']]
+                                batter_id = batter_id['ID'].values[0]
+                                bowler_id = player_db.loc[player_db['Scrapped Name']
+                                                          == j['bowler']]
+                                bowler_id = bowler_id['ID'].values[0]
+                                ball = ball.append({'MatchId': match_id, 'Inning': y, 'Overs': i['over'], 'BallNumber': x, 'Extra': j['runs'][
+                                    'extras'], 'HallalRuns': j['runs']['batter'], 'Bowler': bowler_id, 'Batter': batter_id}, ignore_index=True)
+                                overs.append(i['over'])
+                                hallal_runs.append(j['runs']['batter'])
+                                extra.append(j['runs']['extras'])
+                                ball_number.append(x)
+                                bowler.append(bowler_id)
+                                batter.append(batter_id)
+                                x += 1
+                        Inning_db = pd.DataFrame({'MatchId': match_id, 'Inning': y, 'Overs': overs, 'BallNumber': ball_number,
+                                                  'Extra': extra, 'HallalRuns': hallal_runs, 'Bowler': bowler, 'Batter': batter})
+                        extract_batterInfo(Inning_db, y, match_id)
+                        extract_bowlerInfo(Inning_db, y, match_id)
+                    ball.to_csv("BallDatabase.csv", index=False)
+                except:
+                    print("Continuing for "+str(match_id))
