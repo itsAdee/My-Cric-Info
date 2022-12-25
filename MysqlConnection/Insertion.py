@@ -15,8 +15,12 @@ convert_match = True
 
 
 def InsertPlayers():
-    file = open('Playerdatabase.csv', 'r')
+    cwd = Path.cwd().parent
+    players = pandas.read_csv(
+        cwd / 'Filteration//Playerdatabase.csv', parse_dates=['Birthdate'])
+    players.to_csv('Playerdatabase.csv', index=False)
     mycursor.execute('USE cricinfosystem2')
+    file = open('Playerdatabase.csv', 'r')
     valid_ids = []
     csv_data = csv.reader(file)
     skipHeader = True
@@ -30,7 +34,8 @@ def InsertPlayers():
         last_name = rows[2]
         country = rows[4]
         dob = rows[5].split(' ')[0]
-        print(dob)
+        if dob == '' or dob == None:
+            dob = '2000-01-01'
         batting_style = rows[7]
         bowling_style = rows[8]
         if id in valid_ids:
@@ -108,8 +113,12 @@ def InsertMatches():
         field_umpire_2 = rows[7]
         Tv_Umpire = rows[8]
         winner_team = rows[9]
-        winner_team = my_teams.loc[my_teams['TeamName'] == winner_team]
-        winner_team = winner_team['Team_id'].iloc[0]
+        try:
+            winner_team = my_teams.loc[my_teams['TeamName'] == winner_team]
+            winner_team = winner_team['Team_id'].iloc[0]
+        except:
+            print(rows[9])
+            winner_team = 0
         result_description = rows[10]
         player_of_match = rows[11]
         team_1 = rows[14]
@@ -141,9 +150,9 @@ def Insertballs():
             skipHeader = False
             continue
         Match_id = rows[0]
-        print(Match_id)
+
         Inning = rows[1]
-        print(Inning)
+
         overNumber = rows[2]
         BallNumber = rows[3]
         extra_runs = rows[4]
@@ -153,9 +162,8 @@ def Insertballs():
             continue
         valid_combinations.append((Match_id, Inning, overNumber, BallNumber))
 
-        print(bowler)
         batter = rows[7]
-        print(batter)
+
         q = 'Insert into balls(Match_id,inning,OverNumber,BallNumber,extra_runs,scored_runs,bowler,batter) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)'
         values = (Match_id, Inning, overNumber, BallNumber,
                   extra_runs, scored_runs, bowler, batter)
@@ -208,7 +216,7 @@ def InsertBowler():
         if (match_id, innings, bowler) in valid_combinations:
             continue
         valid_combinations.append((match_id, innings, bowler))
-        print(match_id)
+
         q = 'Insert into bowlerstatsininning(fk_Match_id,InningNumber,fk_bowler_id,runs,deliveries) values (%s,%s,%s,%s,%s)'
         values = (match_id, innings, bowler, runs, deliveries)
         mycursor.execute(q, values)
@@ -241,4 +249,7 @@ def InsertWicketsInfo():
         mycursor.execute(q, values)
 
 
+Insertballs()
+InsertBatter()
+InsertBowler()
 InsertWicketsInfo()
