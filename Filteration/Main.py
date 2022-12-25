@@ -29,9 +29,7 @@ def FindParticularMatches(title, season):
     return list
 
 
-my_matches = FindParticularMatches("ICC Men's T20 World Cup", '2022/23')
+my_matches = FindParticularMatches("Australia tour of Pakistan", '2021/22')
+# print(my_matches)
 # extract_playerInfo(my_matches)
-insert_match_info(my_matches)
-ss = pd.read_csv("Playerdatabase.csv", engine='python')
-ss = ss.loc[ss['Scrapped Name'] == 'Shaheen Shah Afridi']
-print(ss['ID'].values[0])
+InsertBallInfo(my_matches)

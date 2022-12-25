@@ -10,7 +10,10 @@ def extract_matchinfo(match_id):
     match_type = json_data['info']['match_type']
     match_date = json_data['info']['dates'][0]
     event_name = json_data['info']['event']['name']
-    winner_team = json_data['info']['outcome']['winner']
+    try:
+        winner_team = json_data['info']['outcome']['winner']
+    except:
+        winner_team = None
     try:
         event_stage = json_data['info']['event']['stage']
     except:
@@ -25,11 +28,12 @@ def extract_matchinfo(match_id):
         result_description = winner_team + " won by  " + \
             str(result_description) + " runs"
     except:
-
-        result_description = json_data['info']['outcome']['by']['wickets']
-        result_description = winner_team + " won by  " + \
-            str(result_description) + " wickets"
-
+        try:
+            result_description = json_data['info']['outcome']['by']['wickets']
+            result_description = winner_team + " won by  " + \
+                str(result_description) + " wickets"
+        except:
+            result_description = "No Result"
     player_of_match = json_data['info']['player_of_match'][0]
     season = json_data['info']['season']
     team_type = json_data['info']['team_type']
@@ -75,13 +79,22 @@ def insert_match_info(match_list):
         match_id, match_type, match_date, event_name, event_stage, field_umpires_1, field_umpires_2, tv_umpire, winner_team, result_description, player_of_match, season, team_type, team_1, team_2 = extract_matchinfo(
             matches)
         if int(matches) not in match_db['MatchID'].values:
+            print(match_id)
             print(player_of_match)
-            player_db = player_db.loc[player_db['Scrapped Name']
-                                      == player_of_match]
-            player_of_match = player_db['ID'].values[0]
-            print(matches)
+            try:
+                particular_player_db = player_db.loc[player_db['Scrapped Name']
+                                                     == player_of_match]
+
+                player_of_match = particular_player_db['ID'].values[0]
+            except:
+                player_of_match = None
+
             seriesid = series_db.loc[series_db['Title'] == event_name]
             seriesid = seriesid.loc[seriesid['Season'] == season]
             match_db.loc[len(match_db.index)] = [match_id, seriesid['SeriesID'].values[0], match_type, match_date, event_name, event_stage, field_umpires_1, field_umpires_2, tv_umpire,
                                                  winner_team, result_description, player_of_match, season, team_type, team_1, team_2]
     match_db.to_csv("Match.csv", index=False)
+
+
+insert_match_info(['1298150', '1298158', '1298163',
+                  '1298170', '1298175', '1298177', '1298179'])

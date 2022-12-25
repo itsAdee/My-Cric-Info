@@ -17,12 +17,17 @@ def extract_playerInfo(matchlist):
             i = 1
             for player in players:
                 print(player)
+                new_data_frame = pd.read_csv('Playerdatabase.csv')
                 if (player not in new_data_frame['Scrapped Name'].values):
                     if (player in player_db['NAME'].values):
                         my_series = player_db.loc[player_db['NAME'] == player]
                         my_series = my_series.iloc[0]
-                        first_name = my_series['NAME'].split(' ')[0]
-                        last_name = my_series['NAME'].split(' ')[1]
+                        try:
+                            first_name = my_series['NAME'].split(' ')[0]
+                            last_name = my_series['NAME'].split(' ')[1]
+                        except:
+                            first_name = my_series['NAME'].split('-')[0]
+                            last_name = my_series['NAME'].split('-')[1]
                         date_of_birth = my_series['Birthdate']
                         if date_of_birth == '':
                             date_of_birth = "2000-01-01"
@@ -43,5 +48,7 @@ def extract_playerInfo(matchlist):
                             player_id)
                         new_data_frame.loc[len(new_data_frame.index)] = [player_id, first_name, last_name, player, team, date_of_birth,
                                                                          'Alive', batting_style, bowling_style]
+                        new_data_frame.to_csv(
+                            'Playerdatabase.csv', index=False)
                     i += 1
-    new_data_frame.to_csv('Playerdatabase.csv', index=False)
+                    new_data_frame.to_csv('Playerdatabase.csv', index=False)

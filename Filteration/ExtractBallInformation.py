@@ -3,25 +3,29 @@ import json
 
 
 def extract_batterInfo(dataframe, inning_number, match_id):
-    df2 = dataframe.groupby(['Batter'])['HallalRuns'].sum()
-    df2 = df2.reset_index()
-    df3 = dataframe.groupby(['Batter']).count()
-    df3 = df3.reset_index()
     batter = pd.read_csv("BatterInfo.csv")
-    for i in range(len(df2)):
-        batter = batter.append({'Batter': df2['Batter'][i], 'Runs': df2['HallalRuns'][i],
-                               'Balls': df3['HallalRuns'][i], 'MatchID': match_id, 'Inning': inning_number}, ignore_index=True)
-    batter.to_csv('BatterInfo.csv', index=False)
+    if (match_id not in batter['MatchID'].values):
+        df2 = dataframe.groupby(['Batter'])['HallalRuns'].sum()
+        df2 = df2.reset_index()
+        df3 = dataframe.groupby(['Batter']).count()
+        df3 = df3.reset_index()
+
+        for i in range(len(df2)):
+            batter = batter.append({'Batter': df2['Batter'][i], 'Runs': df2['HallalRuns'][i],
+                                    'Balls': df3['HallalRuns'][i], 'MatchID': match_id, 'Inning': inning_number}, ignore_index=True)
+        batter.to_csv('BatterInfo.csv', index=False)
 
 
 def extract_bowlerInfo(dataframe, inning_number, match_id):
-    df2 = dataframe.groupby(['Bowler'])['HallalRuns'].sum().reset_index()
-    df3 = dataframe.groupby(['Bowler']).count().reset_index()
     bowler = pd.read_csv("BowlerInfo.csv")
-    for i in range(len(df2)):
-        bowler = bowler.append({'Bowler': df2['Bowler'][i], 'Runs': df2['HallalRuns'][i],
-                               'Deliveries': df3['HallalRuns'][i], 'MatchID': match_id, 'Inning': inning_number}, ignore_index=True)
-    bowler.to_csv('BowlerInfo.csv', index=False)
+    if (match_id not in bowler['MatchID'].values):
+        df2 = dataframe.groupby(['Bowler'])['HallalRuns'].sum().reset_index()
+        df3 = dataframe.groupby(['Bowler']).count().reset_index()
+
+        for i in range(len(df2)):
+            bowler = bowler.append({'Bowler': df2['Bowler'][i], 'Runs': df2['HallalRuns'][i],
+                                    'Deliveries': df3['HallalRuns'][i], 'MatchID': match_id, 'Inning': inning_number}, ignore_index=True)
+        bowler.to_csv('BowlerInfo.csv', index=False)
 
 
 def extractballinfo(match_id, inning_number):
@@ -51,8 +55,15 @@ def InsertBallInfo(matchlist):
         match_db = pd.read_csv("Match.csv")
         player_db = pd.read_csv("Playerdatabase.csv")
         ball = pd.read_csv("BallDatabase.csv")
-        if int(match_id) in match_db['MatchID'].values:
-            for y in range(2):
+        if int(match_id) in match_db['MatchID'].values and int(match_id) not in ball['MatchId'].values:
+            format = match_db.loc[match_db['MatchID'] == int(match_id)]
+            format = format['MatchType'].values[0]
+            if format == 'ODI' or 'T20':
+                my_range = 2
+            elif format == 'Test':
+                my_range = 4
+            for y in range(my_range):
+                ball = pd.read_csv("BallDatabase.csv")
                 db = ball.loc[ball['MatchId'] == match_id]
                 overs = []
                 ball_number = []
@@ -66,6 +77,8 @@ def InsertBallInfo(matchlist):
                     for i in ball_file['innings'][y]['overs']:
                         x = 1
                         for j in i['deliveries']:
+                            print(j['batter'])
+                            print(j['bowler'])
                             batter_id = player_db.loc[player_db['Scrapped Name']
                                                       == j['batter']]
                             batter_id = batter_id['ID'].values[0]
@@ -85,4 +98,7 @@ def InsertBallInfo(matchlist):
                                               'Extra': extra, 'HallalRuns': hallal_runs, 'Bowler': bowler, 'Batter': batter})
                     extract_batterInfo(Inning_db, y, match_id)
                     extract_bowlerInfo(Inning_db, y, match_id)
-        ball.to_csv("BallDatabase.csv", index=False)
+                ball.to_csv("BallDatabase.csv", index=False)
+
+
+InsertBallInfo(['1311737', '1311738', '1311739'])
