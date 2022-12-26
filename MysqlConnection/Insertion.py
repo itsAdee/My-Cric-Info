@@ -249,6 +249,9 @@ def InsertWicketsInfo():
         mycursor.execute(q, values)
 
 
+InsertPlayers()
+InsertSeries()
+InsertMatches()
 Insertballs()
 InsertBatter()
 InsertBowler()

@@ -50,10 +50,3 @@ def Player_Stats(x):
     playing_role = current_player.playing_role['name'] if current_player.playing_role else None
     dob = current_player.date_of_birth if current_player.date_of_birth else None
     return first_name, last_name, batting_style, bowling_style, playing_role, dob
-
-
-search_term = 'ss mechkechnie'
-query = search_term + " espn cricinfo"
-for j in search(query, tld="co.in", num=10, stop=10, pause=2):
-    player_id = j.split('-')[-1]
-    print(player_id)
