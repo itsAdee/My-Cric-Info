@@ -1,0 +1,252 @@
+h2 {
+        
+  
+  display: inline-flex;
+  border-width: 1px;
+  font-size: 50px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #9a3c3c, #d39393);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  
+  margin-top: 30px;
+  /* margin-left: 41%; */
+  padding: 8px;
+}
+
+
+.row {
+  margin-left:-5px;
+  margin-right:-5px;
+}
+  
+.column {
+  
+  width: 18%;
+  padding: 20px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+table {
+  width: 100%;
+  border-radius: 10px;
+}
+
+td{
+  text-align: left;
+  
+  padding: 12px;
+}
+th {
+  color: #f8eaea;
+  text-align: left;
+  text-shadow: #f2f2f2;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  background: linear-gradient(to top,#8f2e33, #ecb0b0);
+ 
+  padding: 16px;
+}
+
+
+tr:nth-child(even) {
+  background-color: #f2f2f22d;
+  
+}
+
+.tableside {
+  
+    
+    width: 60%;
+}
+
+
+.main{
+  width: 30vw;height: auto;background-image: linear-gradient(to bottom right, #a10d30, rgb(63, 62, 62));;margin: auto;position: relative;padding: 2vw;color: white}
+  body{background-color: black;font-family: 'Roboto', sans-serif}
+  .flag{height: 3vw;width: 4vw; }
+
+  .overs{color: silver;position: relative;bottom: 1vw}
+
+  .score{position: relative;bottom: 0.5vw;color: white}
+
+  span{color: white}
+  tr{border: 2px solid white; border-radius: 5px; }
+
+
+
+  .right1{text-align: right}
+  .head{font-size: 1.3vw}
+  .day{font-size: 1vw;color: silver}
+  .target{font-size: 1vw}
+  .res{font-size: 1.5vw}
+  .match{color: silver}
+  .border{ border-radius: 10px;}
+  @media only screen and (max-width: 425px){.main{width: 100vw;height: 100vw;padding: 4vw}.flag{width: 10vw;height: 8vw}.head{font-size: 5vw}.day{font-size: 4vw}.target{font-size: 4vw}.res{font-size: 5vw}}
+
+
+
+
+
+
+  /* news */
+
+  body{
+    background-color:#eeedef;
+}
+
+.height-100{
+ height:100vh;   
+}
+
+.card{
+    width:380px;
+    border:none;
+    border-radius:0px;
+}
+.content span{
+    color:green; 
+    font-weight:500;
+}
+.content p{
+    font-size:13px;
+}
+.angle i{
+    font-size:19px;
+    cursor:pointer;
+}
+
+.angle i:nth-child(1){
+    margin-right:10px;
+}
+
+
+.about span:nth-child(1){
+    margin-right:10px;
+    color:green;
+}
+
+
+
+
+/* REMOVE THIS, USE YOUR OWN  */
+/* html,body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, Sans-serif;
+  background-color: #170608;
+} */
+.dummy_page {
+  height: 200px;
+  width: 100%;
+  background-color: #f0f0f0;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 60px 0px;
+}
+/* STYLES SPECIFIC TO FOOTER  */
+.footer {
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color: #730b0b;
+}
+.footer .col {
+  width: 190px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: rgba(229, 225, 225, 0.966);
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.250em;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color: #fffdfd;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+}
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+}
+
+.footer .col ul li:hover {
+  color: #ffffff;
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+}
+.clearfix {
+  clear: both;
+}
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  .contain .social {
+    width: 1000px;
+    display: block;
+  }
+  .social h1 {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .footer .col {
+    width: 33%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 500px) {
+    .footer .col {
+      width: 50%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+}
+@media only screen and (max-width: 340px) {
+  .footer .col {
+    width: 100%;
+  }
+}

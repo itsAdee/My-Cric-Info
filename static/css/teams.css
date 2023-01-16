@@ -1,0 +1,427 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,300';
+ @import 'https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.3.2/css/simple-line-icons.min.css';
+ @import 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css';
+ @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:300,700';
+ body {
+	display: flex;
+	flex-direction: column;
+	 width: 100%;
+	 min-height: 900px;
+	 /* margin: 3em auto; */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7cac9+0,92a8d1+100 */
+	 background: #ffffff;
+	/* Old browsers */
+	 /* background: -moz-linear-gradient(-45deg, rgba(247, 202, 201, 1) 0%, rgba(146, 168, 209, 1) 100%); */
+	/* FF3.6-15 */
+	 /* background: -webkit-linear-gradient(-45deg, rgba(247, 202, 201, 1) 0%, rgba(146, 168, 209, 1) 100%); */
+	/* Chrome10-25,Safari5.1-6 */
+	 
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	/* IE6-9 fallback on horizontal gradient */
+	 font-family: 'Roboto Mono';
+	 letter-spacing: 1px;
+	 justify-content: flex-start;
+	 align-items: center;
+}
+
+.box{
+	background: linear-gradient(135deg, rgb(142, 30, 20) 0%, rgba(146, 168, 209, 1) 100%);
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+	margin: 3em;
+}
+ h1 {
+	 text-align: center;
+	 margin-bottom: 1em;
+	 color: #fff;
+	 font-weight: 600;
+	 font-size: 3em;
+	 letter-spacing: 0px;
+	 text-shadow: 1px 1px rgba(0, 0, 0, 0.02), 2px 2px rgba(0, 0, 0, 0.02), 3px 3px rgba(0, 0, 0, 0.02), 4px 4px rgba(0, 0, 0, 0.02), 5px 5px rgba(0, 0, 0, 0.02), 6px 6px rgba(0, 0, 0, 0.02), 7px 7px rgba(0, 0, 0, 0.02);
+}
+ h1 i {
+	 position: relative;
+	 font-size: 70px;
+}
+ p {
+	 text-align: center;
+	 color: #fff;
+	 font-style: italic;
+	 font-size: 20px;
+	 
+	 margin-bottom: .4em;
+	 line-height: 20px;
+}
+ p img {
+	 position: relative;
+	 top: 8px;
+	 right: 10px;
+}
+ .select {
+	 position: relative;
+	 overflow: hidden;
+	 display: block;
+	 margin: auto;
+	 width: 330px;
+	 height: 100%;
+	 border-bottom: 0px;
+	 border-radius: 3px;
+	 font-size: 12px;
+	 box-shadow: 0px 1em 2em -1.5em rgba(0, 0, 0, .5);
+}
+ .select > i.toggle {
+	 position: absolute;
+	 z-index: 4;
+	 right: 1.5em;
+	 top: 1.6em;
+	 color: #ccc;
+}
+ .select .title, .select .placeholder {
+	 position: relative;
+	 display: block;
+	 width: 100%;
+	 height: 100%;
+	 padding: 1.5em 2em;
+	 background: rgba(255, 255, 255, 1);
+	 border-top: 1px solid rgba(0, 0, 0, .05);
+	 cursor: pointer;
+}
+ .select > input {
+	 position: absolute;
+	 left: 0px;
+	 top: 0px;
+	 z-index: 1;
+	 width: 100%;
+	 height: 100%;
+	 display: block;
+	 opacity: 0;
+	 cursor: pointer;
+}
+ .select > input:checked ~ i.toggle.icon-arrow-down {
+	 display: none;
+}
+ .select > input:checked ~ i.toggle.icon-arrow-up {
+	 display: block;
+}
+ .select > input:checked div.options label.option .title {
+	 display: none !important;
+}
+ .select > input:not(:checked) {
+	 z-index: 4;
+}
+ .select > input:not(:checked) ~ label.option > span.title {
+	 display: none;
+}
+ .select > input:not(:checked) ~ i.toggle.icon-arrow-up {
+	 display: none;
+}
+ .select > input:not(:checked) ~ i.toggle.icon-arrow-down {
+	 display: block;
+}
+ .select > input:disabled {
+	 cursor: no-drop;
+}
+ .select > span.placeholder {
+	 position: relative;
+	 z-index: 0;
+	 display: inline-block;
+	 width: 100%;
+	 color: #999;
+	 border-top: 0px;
+}
+ .select label.option {
+	 display: block;
+	 overflow: hidden;
+	 z-index: 1;
+	 width: 100%;
+	 transition: all 1s ease-out;
+}
+ .select label.option span.title {
+	 position: relative;
+	 z-index: 2;
+	 transition: background 0.3s ease-out;
+}
+ .select label.option span.title i.icon {
+	 padding-right: 8px;
+	 color: rgba(146, 168, 209, 1);
+}
+ .select label.option span.title:hover {
+	 color: #fff;
+	 background: rgba(255, 255, 255, .3);
+	 box-shadow: inset 0px 1px 0px rgba(0, 0, 0, .1);
+}
+ .select label.option input {
+	 display: none;
+}
+ .select label.option input:checked ~ span.title {
+	 position: absolute;
+	 display: block;
+	 z-index: 3;
+	 top: 0px;
+	 font-size: 12px;
+	 background: #fff;
+	 border-top: 0px;
+	 box-shadow: none;
+	 color: inherit;
+	 width: 100%;
+}
+ .select label.option input:disabled ~ span.title {
+	 background: #f9f9f9 !important;
+	 color: #aaa;
+}
+ .select label.option input:disabled ~ span.title:hover {
+	 color: #aaa;
+	 background: none;
+	 cursor: no-drop;
+}
+ .select2 {
+	 position: relative;
+	 overflow: hidden;
+	 display: block;
+	 margin: auto;
+	 width: 330px;
+	 height: 100%;
+	 border-bottom: 0px;
+	 border-radius: 3px;
+	 font-size: 12px;
+	 box-shadow: 0px 1em 2em -1.5em rgba(0, 0, 0, .5);
+}
+ .select2 i.toggle {
+	 position: absolute;
+	 z-index: 4;
+	 right: 1.5em;
+	 top: 1.6em;
+	 color: #ccc;
+}
+ .select2 .title, .select2 .placeholder {
+	 position: relative;
+	 display: block;
+	 width: 100%;
+	 height: 100%;
+	 padding: 1.5em 2em;
+	 background: rgba(255, 255, 255, 1);
+	 border-top: 1px solid rgba(0, 0, 0, .05);
+	 cursor: pointer;
+}
+ .select2 > label > input {
+	 position: absolute;
+	 left: 0px;
+	 top: 0px;
+	 z-index: 2;
+	 width: 100%;
+	 height: 100%;
+	 display: block;
+	 opacity: 0;
+	 cursor: pointer;
+}
+ .select2 > label > input:checked {
+	 z-index: 2;
+}
+ .select2 > label > input:checked ~ i.toggle.icon-plus {
+	 display: none;
+}
+ .select2 > label > input:checked ~ i.toggle.icon-minus {
+	 display: block;
+}
+ .select2 > label > input:not(:checked) ~ i.toggle.icon-minus {
+	 display: none;
+}
+ .select2 > label > input:not(:checked) ~ i.toggle.icon-plus {
+	 display: block;
+}
+ .select2 > label > input:not(:checked) ~ label.option input:not(:checked) ~ .title {
+	 display: none !important;
+}
+ .select2 > label > input:disabled {
+	 cursor: no-drop;
+}
+ .select2 label > span.placeholder {
+	 position: relative;
+	 z-index: 0;
+	 display: inline-block;
+	 width: 100%;
+	 color: #999;
+	 border-top: 0px;
+}
+ .select2 label.option {
+	 display: block;
+	 overflow: hidden;
+	 z-index: 1;
+	 width: 100%;
+	 transition: all 1s ease-out;
+}
+ .select2 label.option span.title {
+	 position: relative;
+	 z-index: 2;
+	 transition: background 0.3s ease-out;
+}
+ .select2 label.option span.title i.icon {
+	 padding-right: 8px;
+	 color: rgba(146, 168, 209, 1);
+}
+ .select2 label.option span.title:hover {
+	 color: #fff;
+	 background: rgba(146, 168, 209, .5);
+	 box-shadow: inset 0px 1px 0px rgba(0, 0, 0, .1);
+}
+ .select2 label.option input {
+	 display: none;
+}
+ .select2 label.option input:checked ~ span.title {
+	 position: absolute;
+	 display: block;
+	 z-index: 1;
+	 top: 0px;
+	 font-size: 12px;
+	 background: #fff;
+	 border-top: 0px;
+	 box-shadow: none;
+	 color: inherit;
+	 width: 100%;
+}
+ .select2 label.option input:disabled ~ span.title {
+	 background: #f9f9f9 !important;
+	 color: #aaa;
+}
+ .select2 label.option input:disabled ~ span.title:hover {
+	 color: #aaa;
+	 background: none;
+	 cursor: no-drop;
+}
+
+.button {
+  text-align: center;
+  align-items: center;
+  position: relative;
+  background-color:#0a0a23;
+  color: #fff;
+  border:none; 
+  border-radius:10px; 
+  left: 22.5em;
+  margin: 4em 0;
+  padding:15px;
+  min-height:40px; 
+  max-width: 120px;
+}
+
+.button:hover{
+  background-color:#002ead;
+  transition: 0.2s;
+  cursor: pointer;
+}
+ 
+
+
+
+
+
+/*footer css*/
+.dummy_page {
+	height: 200px;
+	width: 100%;
+	background-color: #f0f0f0;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 60px 0px;
+  }
+  /* STYLES SPECIFIC TO FOOTER  */
+  .footer {
+	width: 100%;
+	position: relative;
+	height: auto;
+	background-color: #730b0b;
+  }
+  .footer .col {
+	width: 190px;
+	height: auto;
+	float: left;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 0px 20px 20px 20px;
+  }
+  .footer .col h1 {
+	margin: 0;
+	padding: 0;
+	font-family: inherit;
+	font-size: 12px;
+	line-height: 17px;
+	padding: 20px 0px 5px 0px;
+	color: rgba(229, 225, 225, 0.966);
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 0.250em;
+  }
+  .footer .col ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+  .footer .col ul li {
+	color: #fffdfd;
+	font-size: 14px;
+	font-family: inherit;
+	font-weight: bold;
+	padding: 5px 0px 5px 0px;
+	cursor: pointer;
+	transition: .2s;
+	-webkit-transition: .2s;
+	-moz-transition: .2s;
+  }
+  .social ul li {
+	display: inline-block;
+	padding-right: 5px !important;
+  }
+  
+  .footer .col ul li:hover {
+	color: #ffffff;
+	transition: .1s;
+	-webkit-transition: .1s;
+	-moz-transition: .1s;
+  }
+  .clearfix {
+	clear: both;
+  }
+  @media only screen and (min-width: 1280px) {
+	.contain {
+	  width: 1200px;
+	  margin: 0 auto;
+	}
+  }
+  @media only screen and (max-width: 1139px) {
+	.contain .social {
+	  width: 1000px;
+	  display: block;
+	}
+	.social h1 {
+	  margin: 0px;
+	}
+  }
+  @media only screen and (max-width: 950px) {
+	.footer .col {
+	  width: 33%;
+	}
+	.footer .col h1 {
+	  font-size: 14px;
+	}
+	.footer .col ul li {
+	  font-size: 13px;
+	}
+  }
+  @media only screen and (max-width: 500px) {
+	  .footer .col {
+		width: 50%;
+	  }
+	  .footer .col h1 {
+		font-size: 14px;
+	  }
+	  .footer .col ul li {
+		font-size: 13px;
+	  }
+  }
+  @media only screen and (max-width: 340px) {
+	.footer .col {
+	  width: 100%;
+	}
+  }

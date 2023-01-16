@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Opening Page</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/home_page_style.css')}}" />
+
+    <style>
+      
+
+      * {
+        box-sizing: border-box;
+      }
+
+      /* Create two equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 300px; /* Should be removed. Only for demonstration */
+        
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body style = "background:#ffffff">
+    {%include 'nav.html'%}
+    <h2 style="text-align: center">Live Matches</h2>
+    <section style="display: flex;">
+
+    
+    <section style="width: 70%">
+      <div class="row">
+        {%for i in range(5)%}
+        <div class="column" style="height: auto">
+          <div class="main">
+            <p class="head">
+              Pakistan Tour of England <span class="right day">2022/02/02</span>
+            </p>
+            <br />
+
+            <table class="table" style="cursor: pointer;">
+              <tr onclick=location.href="#">
+                <td>
+                 <span>Pakistan</span><br /><br />
+                  <p class="score">129/6</p>
+                  <br>
+                </td>
+                <td class="right1">
+                  <span>England</span><br /><br />
+                    
+                  <p class="score pak">120/9</p>
+                  <br>
+                </td>
+              </tr>
+            </table>
+            <center>
+              <br>
+              <p class="res">Pakistan Won By 9 Runs</p>
+            </center>
+          </div>
+        </div>
+        {%endfor%}
+        </div>
+        </section>
+
+
+        <section style="width: 15%; margin-left:10%">
+          <div class="ds-p-0 ds-flex ds-flex-col"><div class="ds-p-4 ds-border-b ds-border-line"><a href="/series/india-in-bangladesh-2022-23-1340842/bangladesh-vs-india-2nd-test-1340849/match-report-3" class=""><div class="ds-flex ds-flex-col ds-space-y-4"><div class="ds-flex ds-flex-row ds-space-x-4"><div class="ds-w-3/4"><div class="ds-flex ds-flex-col"><h class="ds-text-title-subtle-m ds-font-medium ds-text-typo-title">Mehidy picks three as India stutter in 145-run chase</h4><p class="ds-text-compact-xs ds-text-typo-paragraph ds-mt-1"><div>Earlier, Litton's 73 and contributions from Zakir, Nurul and Taskin lifted Bangladesh from a precarious position</div></p></div></div><div class="ds-relative ds-w-1/4"><div class="ds-rounded-lg" style="position: relative; padding-bottom: 100%; height: 0px; overflow: hidden;"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/351400/351473.10.jpg" alt="Mehidy picks three as India stutter in 145-run chase" class="hover:ds-scale-110 hover:ds-transition-transform hover:ds-duration-500 hover:ds-ease-in-out ds-rounded-lg" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></div></div></div></div></a></div><div class="ds-p-4 ds-border-b ds-border-line"><a href="/story/ban-vs-ind-2022-23-wtc-2nd-test-bangladesh-fielding-lapses-let-india-off-the-hook-1350902" class=""><div class="ds-flex ds-flex-col ds-space-y-4"><div class="ds-flex ds-flex-row ds-space-x-4"><div class="ds-w-3/4"><div class="ds-flex ds-flex-col"><h3 class="ds-text-title-subtle-m ds-font-medium ds-text-typo-title">Bangladesh let India slip from their grasp, literally</h3><p class="ds-text-compact-xs ds-text-typo-paragraph ds-mt-1"><div>Missed chances have cost Bangladesh repeatedly in recent times, and Friday was no exception</div></p></div></div><div class="ds-relative ds-w-1/4"><div class="ds-rounded-lg" style="position: relative; padding-bottom: 100%; height: 0px; overflow: hidden;"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/351300/351389.10.jpg" alt="Bangladesh let India slip from their grasp, literally" class="hover:ds-scale-110 hover:ds-transition-transform hover:ds-duration-500 hover:ds-ease-in-out ds-rounded-lg" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></div></div></div></div></a></div><div class="ds-p-4 ds-border-b ds-border-line"><a href="/story/ban-vs-ind-2nd-test-dhaka-is-rishabh-pant-the-gwoat-1350894" class=""><div class="ds-flex ds-flex-col ds-space-y-4"><div class="ds-flex ds-flex-row ds-space-x-4"><div class="ds-w-3/4"><div class="ds-flex ds-flex-col"><h3 class="ds-text-title-subtle-m ds-font-medium ds-text-typo-title">Is Rishabh Pant the GWOAT?</h3><p class="ds-text-compact-xs ds-text-typo-paragraph ds-mt-1"><div>Longevity will determine where he sits vis a vis Gilchrist and the rest, but there's no doubt he's already in the debate</div></p></div></div><div class="ds-relative ds-w-1/4"><div class="ds-rounded-lg" style="position: relative; padding-bottom: 100%; height: 0px; overflow: hidden;"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/351300/351392.10.jpg" alt="Is Rishabh Pant the GWOAT?" class="hover:ds-scale-110 hover:ds-transition-transform hover:ds-duration-500 hover:ds-ease-in-out ds-rounded-lg" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></div></div></div></div></a></div><div class="ds-p-4 ds-border-b ds-border-line"><a href="/series/india-in-bangladesh-2022-23-1340842/bangladesh-vs-india-2nd-test-1340849/match-report-2" class=""><div class="ds-flex ds-flex-col ds-space-y-4"><div class="ds-flex ds-flex-row ds-space-x-4"><div class="ds-w-3/4"><div class="ds-flex ds-flex-col"><h3 class="ds-text-title-subtle-m ds-font-medium ds-text-typo-title">Pant 93, Iyer 87 help India wrest back control</h3><p class="ds-text-compact-xs ds-text-typo-paragraph ds-mt-1"><div>Taijul and Shakib took four wickets each for Bangladesh, who lost their grip on the game after reducing India to 94 for 4</div></p></div></div><div class="ds-relative ds-w-1/4"><div class="ds-rounded-lg" style="position: relative; padding-bottom: 100%; height: 0px; overflow: hidden;"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/351400/351401.10.jpg" alt="Pant 93, Iyer 87 help India wrest back control" class="hover:ds-scale-110 hover:ds-transition-transform hover:ds-duration-500 hover:ds-ease-in-out ds-rounded-lg" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></div></div></div></div></a></div><div class="ds-p-4"><a href="/story/ban-vs-ind-2nd-test-a-mominul-haque-innings-worth-celebrating-1350735" class=""><div class="ds-flex ds-flex-col ds-space-y-4"><div class="ds-flex ds-flex-row ds-space-x-4"><div class="ds-w-3/4"><div class="ds-flex ds-flex-col"><h3 class="ds-text-title-subtle-m ds-font-medium ds-text-typo-title">A Mominul innings worth celebrating</h3><p class="ds-text-compact-xs ds-text-typo-paragraph ds-mt-1"><div>Bangladesh's No. 3 batter breaks out of his rut with 84 off 157 against India in Dhaka</div></p></div></div><div class="ds-relative ds-w-1/4"><div class="ds-rounded-lg" style="position: relative; padding-bottom: 100%; height: 0px; overflow: hidden;"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/351300/351345.10.jpg" alt="A Mominul innings worth celebrating" class="hover:ds-scale-110 hover:ds-transition-transform hover:ds-duration-500 hover:ds-ease-in-out ds-rounded-lg" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></div></div></div></div></a></div></div>
+        </section>
+  
+      
+
+
+      
+      </section>
+        
+    
+    
+    
+
+    <div class="dummy_page">
+
+    
+    <!-- FOOTER START -->
+    <div class="footer">
+      <div class="contain">
+        <div class="col">
+          <h1>Company</h1>
+          <ul>
+            <li>About</li>
+            <li>Mission</li>
+            <li>Services</li>
+            <li>Social</li>
+            <li>Get in touch</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h1>Products</h1>
+          <ul>
+            <li>About</li>
+            <li>Mission</li>
+            <li>Services</li>
+            <li>Social</li>
+            <li>Get in touch</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h1>Accounts</h1>
+          <ul>
+            <li>About</li>
+            <li>Mission</li>
+            <li>Services</li>
+            <li>Social</li>
+            <li>Get in touch</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h1>Resources</h1>
+          <ul>
+            <li>Webmail</li>
+            <li>Redeem code</li>
+            <li>WHOIS lookup</li>
+            <li>Site map</li>
+            <li>Web templates</li>
+            <li>Email templates</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h1>Support</h1>
+          <ul>
+            <li>Contact us</li>
+            <li>Web chat</li>
+            <li>Open ticket</li>
+          </ul>
+        </div>
+        <div class="col social">
+          <h1>Social</h1>
+          <ul>
+            <li><img src="static\images\icons8-facebook.svg" width="32" style="width: 32px;"></li>
+            <li><img src="static\images\icons8-instagram.svg" width="32" style="width: 32px;"></li>
+            <li><img src="static\images\icons8-twitter.svg" width="32" style="width: 32px;"></li>
+          </ul>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    </div>
+    <!-- END OF FOOTER -->
+
+
+
+
+
+ 
+
+
+
+ 
+
+  </body>
+ 
+</html>
