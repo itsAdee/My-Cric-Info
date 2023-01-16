@@ -1,0 +1,5 @@
+bs4
+lxml
+dateparser
+
+Note: To install these modules use pip install ** Module Name **

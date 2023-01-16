@@ -1,0 +1,187 @@
+ID,First Name,Last Name,Scrapped Name,Country,Birthdate,Died,Batting style,Bowling style
+1028655,Pathum,Nissanka,P Nissanka,Sri Lanka,1998-05-18 00:00:00,Alive,Right-hand bat,
+629074,Kusal,Mendis, BKG Mendis,Sri Lanka,1995-02-02 00:00:00,Alive,Right-hand bat,Legbreak
+465793,Dhananjaya,de Silva,DM de Silva,Sri Lanka,1991-09-06 00:00:00,Alive,Right-hand bat,Right-arm offbreak
+345821,Danushka,Gunathilaka,MD Gunathilaka,Sri Lanka,1991-03-17 00:00:00,Alive,Left-hand bat,Right-arm offbreak
+342619,Bhanuka,Rajapaksa,PBB Rajapaksa,Sri Lanka,1991-10-24 00:00:00,Alive,Left-hand bat,Right-arm medium
+437316,Dasun,Shanaka,MD Shanaka,Sri Lanka,1991-09-09 00:00:00,Alive,Right-hand bat,Right-arm medium
+784379,Wanindu,Hasaranga,PWH de Silva,Sri Lanka,1997-07-29 00:00:00,Alive,Right-hand bat,Legbreak
+623695,Chamika,Karunaratne,C Karunaratne,Sri Lanka,1996-05-29 00:00:00,Alive,Right-hand bat,Right-arm medium-fast
+1138316,Maheesh,Theekshana,M Theekshana,Sri Lanka,2000-08-01 00:00:00,Alive,Right-hand bat,Right-arm offbreak
+826689,Pramod,Madushan,PM Liyanagamage,Sri Lanka,1993-12-14 00:00:00,Alive,Right-hand bat,Right-arm medium-fast
+793007,Dilshan,Madushanka,D Madushanka,Sri Lanka,2000-09-18 00:00:00,Alive,Right-hand bat,Left-arm medium-fast
+307774,Mohammad,Rizwan,Mohammad Rizwan,Pakistan,1992-01-06 00:00:00,Alive,Right-hand bat,Right-arm medium
+348144,Babar,Azam,Babar Azam,Pakistan,1994-10-15 00:00:00,Alive,Right-hand bat,Right-arm offbreak
+512191,Fakhar,Zaman,Fakhar Zaman,Pakistan,1990-10-04 00:00:00,Alive,Left-hand bat,Slow left-arm orthodox
+380558,Iftikhar,Ahmed,Iftikhar Ahmed,Pakistan,1990-03-09 00:00:00,Alive,Right-hand bat,Right-arm medium
+41445,Mohammad,Nawaz,Mohammad Nawaz,Pakistan,1974-03-10 00:00:00,Alive,Right-hand bat,Right-arm offbreak
+716733,Khushdil,Shah,Khushdil Shah,Pakistan,1995-07-02 00:00:00,Alive,Left-hand bat,Right-arm medium
+1113618,Asif,Ali,Asif Ali,Pakistan,1991-01-10 00:00:00,Alive,Right-hand bat,Right-arm medium
+34538,Shadab,Khan,Shadab Khan,Pakistan,1985-04-14 00:00:00,Alive,Right-hand bat,Right-arm medium
+1161606,Haris,Rauf,Haris Rauf,Pakistan,1993-07-11 00:00:00,Alive,Right-hand bat,Right-arm medium-fast
+1158088,Naseem,Shah,Naseem Shah,Pakistan,2003-02-15 00:00:00,Alive,Right-hand bat,Right-arm medium-fast
+41437,Mohammad,Hasnain,Mohammad Hasnain,Pakistan,2064-03-24 00:00:00,Alive,Right-hand bat,"Right-arm medium, Right-arm offbreak"
+307826,Hasan,Ali,Hasan Ali,Pakistan,,Alive,Right-hand bat,Right-arm medium
+348152,Usman,Qadir,Usman Qadir,Pakistan,1993-10-08 00:00:00,Alive,Left-hand bat,Legbreak
+629074,Kusal,Mendis,BKG Mendis,Sri Lanka,1995-02-02 00:00:00+00:00,Alive,Right-hand bat,Legbreak
+233901,Shan,Masood,Shan Masood,Pakistan,1989-10-14 00:00:00,Alive,Left-hand bat,Right-arm medium-fast
+387048,Haider,Ali,Haider Ali,Pakistan,2070-12-24 00:00:00,Alive,Right-hand bat,Right-arm medium-fast
+1072470,Shaheen,Shah,Shaheen Shah Afridi,Pakistan,2000-04-06 00:00:00+00:00,Alive,Left-hand bat,Left-arm fast
+422108,KL,Rahul,KL Rahul,India,1992-04-18 00:00:00,Alive,Right-hand bat,Right-arm medium
+34102,Rohit,Sharma,RG Sharma,India,1987-04-30 00:00:00+00:00,Alive,Right-hand bat,Right-arm offbreak
+253802,Virat,Kohli,V Kohli,India,1988-11-05 00:00:00+00:00,Alive,Right-hand bat,Right-arm medium
+446507,Suryakumar,Yadav,SA Yadav,India,1990-09-14 00:00:00+00:00,Alive,Right-hand bat,Right-arm medium
+554691,Axar,Patel,AR Patel,India,1994-01-20 00:00:00+00:00,Alive,Left-hand bat,Slow left-arm orthodox
+625371,Hardik,Pandya,HH Pandya,India,1993-10-11 00:00:00+00:00,Alive,Right-hand bat,Right-arm medium-fast
+30045,Dinesh,Karthik,KD Karthik,India,1985-06-01 00:00:00+00:00,Alive,Right-hand bat,Right-arm offbreak
+26421,Ravichandran,Ashwin,R Ashwin,India,1986-09-17 00:00:00+00:00,Alive,Right-hand bat,Right-arm offbreak
+481896,Mohammed,Shami,Mohammed Shami,India,1990-03-09 00:00:00,Alive,Right-hand bat,Right-arm fast-medium
+326016,Bhuvneshwar,Kumar,B Kumar,India,1990-02-05 00:00:00+00:00,Alive,Right-hand bat,Right-arm medium
+1125976,Arshdeep,Singh,Arshdeep Singh,India,1999-05-02 00:00:00,Alive,Left-hand bat,Left-arm medium-fast
+1205559,Mohammad,Haris,Mohammad Haris,Pakistan,2001-03-30 00:00:00+00:00,Alive,Right-hand bat,Right-arm offbreak
+1015499,Mohammad,Wasim,Mohammad Wasim,Pakistan,1993-06-23 00:00:00,Alive,Right-hand bat,Right-arm offbreak
+308967,Jos,Buttler,JC Buttler,England,1990-09-08 00:00:00+00:00,Alive,Right-hand bat,
+249866,Alex,Hales,AD Hales,England,1989-01-03 00:00:00+00:00,Alive,Right-hand bat,Right-arm medium
+669365,Phil,Salt,PD Salt,England,1996-08-28 00:00:00+00:00,Alive,Right-hand bat,Right-arm offbreak
+311158,Ben,Stokes,BA Stokes,England,1991-06-04 00:00:00+00:00,Alive,Left-hand bat,Right-arm fast-medium
+911707,Harry,Brook,HC Brook,England,1999-02-22 00:00:00+00:00,Alive,Right-hand bat,Right-arm medium
+8917,Moeen,Ali,MM Ali,England,1987-06-18 00:00:00+00:00,Alive,Left-hand bat,Right-arm offbreak
+403902,Liam,Livingstone,LS Livingstone,England,1993-08-04 00:00:00+00:00,Alive,Right-hand bat,Legbreak
+662973,Sam,Curran,SM Curran,England,1998-06-03 00:00:00+00:00,Alive,Left-hand bat,Left-arm medium-fast
+247235,Chris,Woakes,CR Woakes,England,1989-03-02 00:00:00+00:00,Alive,Right-hand bat,Right-arm fast-medium
+288992,Chris,Jordan,CJ Jordan,England,1988-10-04 00:00:00+00:00,Alive,Right-hand bat,Right-arm fast-medium
+244497,Adil,Rashid,AU Rashid,England,1988-02-17 00:00:00+00:00,Alive,Right-hand bat,Legbreak
+938959,Wessly,Madhevere,W Madhevere,Zimbabwe,2000-09-04 00:00:00+00:00,Alive,Right-hand bat,Right-arm offbreak
+55412,Craig,Ervine,CR Ervine,Zimbabwe,1985-08-19 00:00:00+00:00,Alive,Left-hand bat,Right-arm offbreak
+951781,Milton,Shumba,M Shumba,Zimbabwe,2000-10-19 00:00:00+00:00,Alive,Left-hand bat,Slow left-arm orthodox
+55870,Sean,Williams,SC Williams,Zimbabwe,1986-09-26 00:00:00+00:00,Alive,Left-hand bat,Slow left-arm orthodox
+299572,Sikandar,Raza,Sikandar Raza,Zimbabwe,1986-04-24 00:00:00,Alive,Right-hand bat,Right-arm offbreak
+293831,Regis,Chakabva,RW Chakabva,Zimbabwe,1987-09-20 00:00:00+00:00,Alive,Right-hand bat,Right-arm offbreak
+495964,Ryan,Burl,RP Burl,Zimbabwe,1994-04-15 00:00:00+00:00,Alive,Left-hand bat,Legbreak
+541224,Luke,Jongwe,LM Jongwe,Zimbabwe,1995-02-06 00:00:00+00:00,Alive,Right-hand bat,Right-arm fast-medium
+587791,B,Evans,B Evans,Zimbabwe,,Alive,Right-hand bat,Right-arm medium
+806241,Richard,Ngarava,R Ngarava,Zimbabwe,1997-12-28 00:00:00+00:00,Alive,Left-hand bat,Left-arm fast-medium
+827051,Blessing,Muzarabani,B Muzarabani,Zimbabwe,1996-10-02 00:00:00+00:00,Alive,Right-hand bat,Right-arm fast-medium
+236489,Dawid,Malan,DJ Malan,England,1987-09-03 00:00:00+00:00,Alive,Left-hand bat,Legbreak
+521637,Ben,Duckett,BM Duckett,England,1994-10-17 00:00:00+00:00,Alive,Left-hand bat,Right-arm offbreak
+308251,David,Willey,DJ Willey,England,1990-02-28 00:00:00+00:00,Alive,Left-hand bat,Left-arm fast-medium
+461632,Reece,Topley,RJW Topley,England,1994-02-21 00:00:00+00:00,Alive,Right-hand bat,Left-arm fast-medium
+1203995,Shahnawaz,Dahani,Shahnawaz Dhani,Pakistan,1998-08-05 00:00:00+00:00,Alive,Right-hand bat,Right-arm fast-medium
+573170,Luke,Wood,L Wood,England,1995-08-02 00:00:00+00:00,Alive,Left-hand bat,Left-arm fast-medium
+473191,Richard,Gleeson,RJ Gleeson,England,1987-12-02 00:00:00+00:00,Alive,Right-hand bat,Right-arm fast-medium
+211855,Liam,Dawson,LA Dawson,England,1990-03-01 00:00:00+00:00,Alive,Right-hand bat,Slow left-arm orthodox
+897549,Will,Jacks,WG Jacks,England,1998-11-21 00:00:00+00:00,Alive,Right-hand bat,Right-arm offbreak
+351588,Mark,Wood,MA Wood,England,1990-01-11 00:00:00+00:00,Alive,Right-hand bat,Right-arm fast
+457279,Olly,Stone,OP Stone,England,1993-10-09 00:00:00+00:00,Alive,Right-hand bat,Right-arm fast
+643197,Max,O'Dowd,MP O'Dowd,Netherlands,1994-03-04 00:00:00+00:00,Alive,Right-hand bat,Right-arm offbreak
+44407,Wesley,Barresi,W Barresi,Netherlands,1984-05-03 00:00:00+00:00,Alive,Right-hand bat,Right-arm offbreak
+1036191,Bas,de,BFW de Leede,Netherlands,1999-11-15 00:00:00+00:00,Alive,Right-hand bat,Right-arm fast-medium
+219885,Tom,Cooper,TLW Cooper,Netherlands,1986-11-26 00:00:00+00:00,Alive,Right-hand bat,Right-arm offbreak
+1129328,Teja,Nidamanuru,AT Nidamanuru,Netherlands,1994-08-22 00:00:00+00:00,Alive,Right-hand bat,Right-arm offbreak
+440522,Logan,van,LV van Beek,Netherlands,1990-09-07 00:00:00+00:00,Alive,Right-hand bat,Right-arm medium-fast
+1193548,Tim,Pringle,TJG Pringle,Netherlands,2002-08-29 00:00:00+00:00,Alive,Right-hand bat,Slow left-arm orthodox
+1195672,Aryan,Dutt,A Dutt,Netherlands,2003-05-12 00:00:00+00:00,Alive,Right-hand bat,Right-arm offbreak
+416103,Vivian,Kingma,VJ Kingma,Netherlands,1994-10-23 00:00:00+00:00,Alive,Right-hand bat,Right-arm medium-fast
+1184439,Musa,Ahmed,Musa Ahmed,Netherlands,1997-12-10 00:00:00+00:00,Alive,Left-hand bat,Legbreak
+1278252,Shariz,Ahmad,Shariz Ahmad,Netherlands,2003-04-21 00:00:00+00:00,Alive,Left-hand bat,Legbreak googly
+215155,Usman,Khawaja,UT Khawaja,Australia,1986-12-18 00:00:00+00:00,Alive,Left-hand bat,Right-arm medium
+219889,David,Warner,DA Warner,Australia,1986-10-27 00:00:00+00:00,Alive,Left-hand bat,Legbreak
+787987,Marnus,Labuschagne,M Labuschagne,Australia,1994-06-22 00:00:00+00:00,Alive,Right-hand bat,Legbreak
+267192,Steven,Smith,SPD Smith,Australia,1989-06-02 00:00:00+00:00,Alive,Right-hand bat,Legbreak googly
+530011,Travis,Head,TM Head,Australia,1993-12-29 00:00:00+00:00,Alive,Left-hand bat,Right-arm offbreak
+326434,Alex,Carey,AT Carey,Australia,1991-08-27 00:00:00+00:00,Alive,Left-hand bat,
+311592,Mitchell,Starc,MA Starc,Australia,1990-01-30 00:00:00+00:00,Alive,Left-hand bat,Left-arm fast
+489889,Pat,Cummins,PJ Cummins,Australia,1993-05-08 00:00:00+00:00,Alive,Right-hand bat,Right-arm fast
+272279,Nathan,Lyon,NM Lyon,Australia,1987-11-20 00:00:00+00:00,Alive,Right-hand bat,Right-arm offbreak
+288284,Josh,Hazlewood,JR Hazlewood,Australia,1991-01-08 00:00:00+00:00,Alive,Left-hand bat,Right-arm fast-medium
+590326,Mitchell,Swepson,MJ Swepson,Australia,1993-10-04 00:00:00+00:00,Alive,Right-hand bat,Legbreak
+5334,Aaron,Finch,AJ Finch,Australia,1986-11-17 00:00:00+00:00,Alive,Right-hand bat,Slow left-arm orthodox
+603410,Ben,McDermott,BR McDermott,Australia,1994-12-12 00:00:00+00:00,Alive,Right-hand bat,Right-arm medium
+325012,Marcus,Stoinis,MP Stoinis,Australia,1989-08-16 00:00:00+00:00,Alive,Right-hand bat,Right-arm medium
+398666,Sean,Abbott,SA Abbott,Australia,1992-02-29 00:00:00+00:00,Alive,Right-hand bat,Right-arm fast-medium
+826915,Nathan,Ellis,NT Ellis,Australia,1994-09-22 00:00:00+00:00,Alive,Right-hand bat,Right-arm fast-medium
+379504,Adam,Zampa,A Zampa,Australia,1992-03-31 00:00:00+00:00,Alive,Right-hand bat,Legbreak googly
+272477,Jason,Behrendorff,JP Behrendorff,Australia,1990-04-20 00:00:00+00:00,Alive,Right-hand bat,Left-arm fast-medium
+662235,Josh,Inglis,JP Inglis,Australia,1995-03-04 00:00:00+00:00,Alive,Right-hand bat,
+679567,Ben,Dwarshuis,BJ Dwarshuis,Australia,1994-06-23 00:00:00+00:00,Alive,Left-hand bat,Left-arm fast-medium
+568276,Imam-,ul-Haq,Imam-ul-Haq,Pakistan,1995-12-22 00:00:00,Alive,Left-hand bat,Left-arm medium-fast
+629058,Najmul,Hossain,Nazmul Hossain Shanto,Bangladesh,1998-08-25 00:00:00+00:00,Alive,Left-hand bat,Right-arm offbreak
+932355,Ebadot,Hossain,Ebadat Hossain,Bangladesh,1994-01-07 00:00:00+00:00,Alive,Right-hand bat,Right-arm fast-medium
+536936,Liton,Das,Liton Das,Bangladesh,1994-10-13 00:00:00,Alive,Right-hand bat,Right-arm medium
+436677,Soumya,Sarkar,Soumya Sarkar,Bangladesh,1993-02-25 00:00:00,Alive,Left-hand bat,Right-arm medium-fast
+56143,Shakib,Al,Shakib Al Hasan,Bangladesh,1987-03-24 00:00:00,Alive,Left-hand bat,Slow left-arm orthodox
+935995,Afif,Hossain,Afif Hossain,Bangladesh,1999-09-22 00:00:00,Alive,Left-hand bat,Right-arm offbreak
+550133,Mosaddek,Hossain,Mosaddek Hossain,Bangladesh,1995-10-12 00:00:00,Alive,Right-hand bat,Right-arm offbreak
+410765,Nurul,Hasan,Nurul Hasan,Bangladesh,1993-11-21 00:00:00,Alive,Right-hand bat,Right-arm medium
+538506,Taskin,Ahmed,Taskin Ahmed,Bangladesh,1995-03-04 00:00:00,Alive,Left-hand bat,Right-arm fast
+348049,Nasum,Ahmed,Nasum Ahmed,Bangladesh,1994-05-12 00:00:00,Alive,Left-hand bat,Slow left-arm orthodox
+1001587,Mustafizur,Rahman,Mustafizur Rahman,Bangladesh,1991-06-13 00:00:00,Alive,Right-hand bat,Right-arm offbreak
+233712,Stephan,Myburgh,SJ Myburgh,Netherlands,1984-02-28 00:00:00+00:00,Alive,Left-hand bat,Right-arm offbreak
+379774,Colin,Ackermann,CN Ackermann,Netherlands,1991-04-04 00:00:00+00:00,Alive,Right-hand bat,Right-arm offbreak
+886607,SA,Edwards,SA Edwards,Netherlands,,Alive,Right-hand bat,Right-arm medium
+47850,Roelof,van,RE van der Merwe,Netherlands,1984-12-31 00:00:00+00:00,Alive,Right-hand bat,Slow left-arm orthodox
+1104703,Fred,Klaassen,FJ Klaassen,Netherlands,1992-11-13 00:00:00+00:00,Alive,Right-hand bat,Left-arm fast-medium
+348109,Paul,van,PA van Meekeren,Netherlands,1993-01-15 00:00:00+00:00,Alive,Right-hand bat,Right-arm fast-medium
+595419,Brandon,Glover,BD Glover,Netherlands,1997-04-03 00:00:00+00:00,Alive,Right-hand bat,Right-arm fast
+372116,Temba,Bavuma,T Bavuma,South Africa,1990-05-17 00:00:00+00:00,Alive,Right-hand bat,Right-arm medium
+379143,Quinton,de,Q de Kock,South Africa,1992-12-17 00:00:00+00:00,Alive,Left-hand bat,
+318845,Rilee,Rossouw,RR Rossouw,South Africa,1989-10-09 00:00:00+00:00,Alive,Left-hand bat,Right-arm offbreak
+600498,Aiden,Markram,AK Markram,South Africa,1994-10-04 00:00:00+00:00,Alive,Right-hand bat,Right-arm offbreak
+436757,Heinrich,Klaasen,H Klaasen,South Africa,1991-07-30 00:00:00+00:00,Alive,Right-hand bat,Right-arm offbreak
+595978,Tristan,Stubbs,T Stubbs,South Africa,2000-08-14 00:00:00+00:00,Alive,Right-hand bat,Right-arm offbreak
+265564,Wayne,Parnell,WD Parnell,South Africa,1989-07-30 00:00:00+00:00,Alive,Left-hand bat,Left-arm medium-fast
+550215,Kagiso,Rabada,K Rabada,South Africa,1995-05-25 00:00:00+00:00,Alive,Left-hand bat,Right-arm fast
+481979,Anrich,Nortje,A Nortje,South Africa,1993-11-16 00:00:00+00:00,Alive,Right-hand bat,Right-arm fast
+542023,Lungi,Ngidi,L Ngidi,South Africa,1996-03-29 00:00:00+00:00,Alive,Right-hand bat,Right-arm fast-medium
+379145,Tabraiz,Shamsi,T Shamsi,South Africa,1990-02-18 00:00:00+00:00,Alive,Right-hand bat,Left-arm wrist-spin
+670013,Fabian,Allen,FH Allen,New Zealand,1995-05-07 00:00:00+00:00,Alive,Right-hand bat,Slow left-arm orthodox
+379140,Devon,Conway,DP Conway,New Zealand,1991-07-08 00:00:00+00:00,Alive,Left-hand bat,Right-arm medium
+277906,Kane,Williamson,KS Williamson,New Zealand,1990-08-08 00:00:00+00:00,Alive,Right-hand bat,Right-arm offbreak
+823509,Glenn,Phillips,GD Phillips,New Zealand,1996-12-06 00:00:00+00:00,Alive,Right-hand bat,Right-arm offbreak
+381743,Daryl,Mitchell,DJ Mitchell,New Zealand,1991-05-20 00:00:00+00:00,Alive,Right-hand bat,Right-arm medium
+355269,James,Neesham,JDS Neesham,New Zealand,1990-09-17 00:00:00+00:00,Alive,Left-hand bat,Right-arm medium-fast
+502714,Mitchell,Santner,MJ Santner,New Zealand,1992-02-05 00:00:00+00:00,Alive,Left-hand bat,Slow left-arm orthodox
+232364,Tim,Southee,TG Southee,New Zealand,1988-12-11 00:00:00+00:00,Alive,Right-hand bat,Right-arm medium-fast
+559066,Ish,Sodhi,IS Sodhi,New Zealand,1992-10-31 00:00:00+00:00,Alive,Right-hand bat,Legbreak
+493773,Lockie,Ferguson,LH Ferguson,New Zealand,1991-06-13 00:00:00+00:00,Alive,Right-hand bat,Right-arm fast
+277912,Trent,Boult,TA Boult,New Zealand,1989-07-22 00:00:00+00:00,Alive,Right-hand bat,Left-arm fast-medium
+922941,Abdullah,Shafique,Abdullah Shafique,Pakistan,1999-11-20 00:00:00,Alive,Right-hand bat,Right-arm offbreak
+212153,Azhar,Ali,Azhar Ali,Pakistan,2068-02-02 00:00:00,Alive,Right-hand bat,Right-arm offbreak
+40250,Fawad,Alam,Fawad Alam,Pakistan,1985-08-10 00:00:00,Alive,Left-hand bat,Slow left-arm orthodox
+238672,Nauman,Ali,Nauman Ali,Pakistan,1986-07-10 00:00:00,Alive,Left-hand bat,Slow left-arm orthodox
+1076625,Sajid,Khan,Sajid Khan,Pakistan,2002-08-07 00:00:00,Alive,Right-hand bat,Right-arm medium
+332345,C,Green,C Green,Australia,,Alive,Right-hand bat,Right-arm medium
+681117,Faheem,Ashraf,Faheem Ashraf,Pakistan,1994-01-16 00:00:00,Alive,Left-hand bat,Right-arm medium
+652687,Saud,Shakeel,Saud Shakeel,Pakistan,1995-05-09 00:00:00,Alive,Left-hand bat,Left-arm slow
+43817,Zahid,Mahmood,Zahid Mahmood,Pakistan,2068-03-09 00:00:00,Alive,Right-hand bat,Right-arm medium
+623977,Agha,Salman,Agha Salman,Pakistan,1993-11-23 00:00:00,Alive,Right-hand bat,Right-arm offbreak
+1153767,Vikramjit,Singh,Vikramjit Singh,Netherlands,,Alive,Left-hand bat,Right-arm medium-fast
+234675,Ravindra,Jadeja,RA Jadeja,India,1988-12-06 00:00:00+00:00,Alive,Left-hand bat,Slow left-arm orthodox
+430246,Yuzvendra,Chahal,YS Chahal,India,1990-07-23 00:00:00+00:00,Alive,Right-hand bat,Legbreak googly
+694211,Avesh,Khan,Avesh Khan,India,1996-12-13 00:00:00,Alive,Right-hand bat,Right-arm medium-fast
+350629,Nizakat,Khan,Nizakat Khan,Hong Kong,1992-08-07 00:00:00,Alive,Right-hand bat,Legbreak
+233904,Yasim,Murtaza,Yasim Murtaza,Hong Kong,1990-04-12 00:00:00,Alive,Left-hand bat,Slow left-arm orthodox
+539304,Babar,Hayat,Babar Hayat,Hong Kong,1992-05-01 00:00:00,Alive,Right-hand bat,Right-arm medium
+401537,Kinchit,Shah,KD Shah,Hong Kong,1995-12-09 00:00:00+00:00,Alive,Left-hand bat,Right-arm offbreak
+401540,Aizaz,Khan,Aizaz Khan,Hong Kong,1993-03-21 00:00:00,Alive,Right-hand bat,Right-arm medium-fast
+352284,Zeeshan,Ali,Zeeshan Ali,Hong Kong,2071-04-03 00:00:00,Alive,Right-hand bat,Right-arm medium
+1068983,Haroon,Arshad,Haroon Arshad,Hong Kong,1999-09-06 00:00:00+00:00,Alive,Right-hand bat,Right-arm medium
+40082,Ehsan,Khan,Ehsan Khan,Hong Kong,1984-12-27 00:00:00,Alive,Right-hand bat,Right-arm offbreak
+1167779,Ayush,Shukla,A Shukla,Hong Kong,2002-10-28 00:00:00+00:00,Alive,Right-hand bat,Right-arm medium
+633428,Mohammad,Ghazanfar,Mohammad Ghazanfar,Hong Kong,1994-12-28 00:00:00,Alive,Right-hand bat,Legbreak
+931581,Rishabh,Pant,RR Pant,India,1997-10-04 00:00:00+00:00,Alive,Left-hand bat,
+497121,Deepak,Hooda,DJ Hooda,India,1995-04-19 00:00:00+00:00,Alive,Right-hand bat,Right-arm offbreak
+1175441,Ravi,Bishnoi,Ravi Bishnoi,India,2000-05-09 00:00:00,Alive,Right-hand bat,Legbreak googly
+793457,Hazratullah,Zazai,Hazratullah,Afghanistan,1998-03-23 00:00:00+00:00,Alive,Left-hand bat,Slow left-arm orthodox
+974087,Rahmanullah,Gurbaz,Rahmanullah Gurbaz,Afghanistan,2001-11-28 00:00:00,Alive,Right-hand bat,Right-arm medium
+921509,Ibrahim,Zadran,Ibrahim Zadran,Afghanistan,2001-12-12 00:00:00,Alive,Right-hand bat,Right-arm medium-fast
+793467,Karim,Janat,Karim Janat,Afghanistan,1998-11-08 00:00:00,Alive,Right-hand bat,Right-arm medium
+524049,Najibullah,Zadran,Najibullah Zadran,Afghanistan,1993-02-28 00:00:00,Alive,Left-hand bat,Right-arm offbreak
+1076655,Mohammad,Nabi,Mohammad Nabi,Afghanistan,2002-03-08 00:00:00,Alive,Right-hand bat,Right-arm medium
+819429,Azmatullah,Omarzai,Azmatullah Omarzai,Afghanistan,2000-03-24 00:00:00,Alive,Right-hand bat,Right-arm medium-fast
+25923,Rashid,Khan,Rashid Khan,Afghanistan,1984-01-01 00:00:00,Alive,Right-hand bat,Right-arm medium
+974109,Mujeeb,Ur,Mujeeb Ur Rahman,Afghanistan,2001-03-28 00:00:00,Alive,Right-hand bat,Right-arm offbreak
+568136,Fareed,Ahmad,Fareed Ahmad,Afghanistan,1994-10-08 00:00:00,Alive,Left-hand bat,Left-arm fast-medium
+974175,Fazalhaq,Farooqi,Fazalhaq Farooqi,Afghanistan,2000-09-22 00:00:00+00:00,Alive,Right-hand bat,Left-arm fast-medium
+459752,Scott,Mckechnie,ss mechkechnie,Hong Kong,1993-01-01 00:00:00+00:00,Alive,Right-hand bat,Right-arm medium
+793441,Aamer,Jamal,Aamer Jamal,Pakistan,1996-05-07 00:00:00,Alive,Right-hand bat,Right-arm medium
